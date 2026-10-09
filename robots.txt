@@ -1,0 +1,10 @@
+# שווה בשווה — האתר הציבורי פתוח לסריקה (בלי הקובץ הזה surge מגיש ברירת מחדל שחוסמת הכול).
+# build-web.sh מחליף את https://shavehbeshaveh.co.il/ בכתובת מ־deploy/domain.txt. אזור הניהול המקצועי נמצא בדומיין
+# נפרד (shaveh-admin.surge.sh, deploy/admin-deploy.sh) — אינו חלק מהאתר הזה ונשאר חסום לסורקים.
+User-agent: *
+Allow: /
+# מאגר הידע ומנוע החיפוש של מרכז העזרה — קבצים שהאפליקציה טוענת, לא עמודים לאינדקס
+# (המאמרים עצמם זמינים כעמודים סטטיים ב־/help/)
+Disallow: /help/kb.json
+Disallow: /help/search.js
+Sitemap: https://shavehbeshaveh.co.il/sitemap.xml
