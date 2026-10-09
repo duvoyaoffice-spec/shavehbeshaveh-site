@@ -27,11 +27,47 @@
  "@context": "https://schema.org",
  "@graph": [
   {
+   "@type": "Organization",
+   "@id": "https://shavehbeshaveh.co.il/#org",
+   "name": "שווה בשווה",
+   "alternateName": [
+    "Shaveh Beshaveh",
+    "shavehbeshaveh"
+   ],
+   "url": "https://shavehbeshaveh.co.il/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://shavehbeshaveh.co.il/icons/icon-512.png",
+    "width": 512,
+    "height": 512
+   },
+   "sameAs": [
+    "https://www.instagram.com/shavehbeshaveh.app/"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://shavehbeshaveh.co.il/#website",
+   "name": "שווה בשווה",
+   "alternateName": [
+    "Shaveh Beshaveh",
+    "shavehbeshaveh"
+   ],
+   "url": "https://shavehbeshaveh.co.il/",
+   "inLanguage": "he",
+   "publisher": {
+    "@id": "https://shavehbeshaveh.co.il/#org"
+   }
+  },
+  {
    "@type": "WebApplication",
    "@id": "https://shavehbeshaveh.co.il/#app",
    "name": "שווה בשווה",
    "url": "https://shavehbeshaveh.co.il/",
    "inLanguage": "he",
+   "publisher": {
+    "@id": "https://shavehbeshaveh.co.il/#org"
+   },
    "applicationCategory": "FinanceApplication",
    "operatingSystem": "Web",
    "browserRequirements": "Requires JavaScript",
@@ -142,7 +178,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&family=Frank+Ruhl+Libre:wght@500;700;800;900&display=swap">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&family=Frank+Ruhl+Libre:wght@500;700;800;900&display=swap"></noscript>
-<link rel="stylesheet" href="styles.d50fb28da5.css">
+<link rel="stylesheet" href="styles.042e54c629.css">
 </head>
 <body>
 
@@ -186,6 +222,7 @@
       <dt>כמה זה עולה?</dt>
       <dd>מתחילים בחינם — עד <span class="num">10</span> הוצאות בקבוצה, בלי הגבלת זמן. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת: שבוע <span class="num">15</span> ₪, חודש <span class="num">29</span> ₪ או שנה <span class="num">250</span> ₪. המחירים סופיים וכוללים מע״מ ככל שחל.</dd>
     </dl>
+    <p class="intro-guides">מדריכים: <a href="guides/trip-expenses.html">חלוקת הוצאות בטיול</a> · <a href="guides/roommates-expenses.html">שותפים לדירה</a> · <a href="guides/family-bbq-expenses.html">מנגל ואירוע משפחתי</a> · <a href="guides/who-owes-whom.html">מי חייב למי</a> · <a href="help/">מרכז העזרה</a></p>
   </div>
 </details>
 
@@ -193,7 +230,7 @@
 
 <script src="config.9cb975f5da.js"></script>
 <script src="logic.3112356215.js"></script>
-<script src="app.5ab6482a7b.js" data-ver="bd13ecf8"></script>
+<script src="app.5ab6482a7b.js" data-ver="69b66df6"></script>
 
 </body>
 </html>
