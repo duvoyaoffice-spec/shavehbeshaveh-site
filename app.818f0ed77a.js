@@ -447,7 +447,7 @@
           ${f.showArchived?`<div class="trip-list" style="margin-top:8px;">${s.map((i,c)=>hr(i,c)).join("")}</div>`:""}`:""}`:e=`
         <div class="empty rise kind-intro">
           <div class="art" aria-hidden="true">🤝</div>
-          <h3>מה מארגנים?</h3>
+          <h2>מה מארגנים?</h2>
           <p>בוחרים סוג, ממלאים פרטים — והקבוצה פתוחה.<br>החברים מצטרפים בקישור שתשלחו, בלי שום התקנה.</p>
         </div>
         <div class="kind-grid rise" style="animation-delay:80ms" role="group" aria-label="בחירת סוג הקבוצה">
