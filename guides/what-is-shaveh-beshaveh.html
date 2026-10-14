@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://keuzcgicyesqrwovgqfx.supabase.co https://open.er-api.com https://he.wikipedia.org; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-src 'none'">
+<meta name="referrer" content="strict-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>מה זה שווה בשווה ואיך זה עובד · Shaveh Beshaveh, expense splitting app in Hebrew</title>
+<meta name="description" content="שווה בשווה היא אפליקציית ווב ישראלית לחלוקת הוצאות: פותחים קבוצה, החברים מצטרפים בקישור, רושמים מי שילם, והאפליקציה מחשבת מי חייב למי. גם באנגלית.">
+<link rel="canonical" href="https://shavehbeshaveh.co.il/guides/what-is-shaveh-beshaveh.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="שווה בשווה">
+<meta property="og:locale" content="he_IL">
+<meta property="og:url" content="https://shavehbeshaveh.co.il/guides/what-is-shaveh-beshaveh.html">
+<meta property="og:title" content="מה זה שווה בשווה ואיך זה עובד · Shaveh Beshaveh, expense splitting app in Hebrew">
+<meta property="og:description" content="שווה בשווה היא אפליקציית ווב ישראלית לחלוקת הוצאות: פותחים קבוצה, החברים מצטרפים בקישור, רושמים מי שילם, והאפליקציה מחשבת מי חייב למי. גם באנגלית.">
+<meta property="og:image" content="https://shavehbeshaveh.co.il/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F3EA">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0D1511">
+<link rel="icon" type="image/png" sizes="192x192" href="../icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&family=Frank+Ruhl+Libre:wght@500;700;800;900&display=swap">
+<link rel="stylesheet" href="../styles.0a31ec4c51.css">
+<style>
+.seo-page { max-width: 640px; margin: 0 auto; padding: 16px 18px 48px; }
+.seo-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 2px 4px; }
+.seo-brand { font-family: var(--font-display); font-weight: 900; font-size: 24px; line-height: 1.1; color: var(--ink); text-decoration: none; }
+.seo-brand small { display: block; font-family: var(--font-body); font-weight: 400; font-size: 12.5px; color: var(--muted); margin-top: 3px; }
+.seo-open { flex: none; }
+.seo-crumbs { font-size: 13px; color: var(--muted); margin: 18px 0 4px; }
+.seo-crumbs a { color: var(--brand-strong); }
+.seo-crumbs span { margin: 0 5px; }
+.seo-h1 { font-family: var(--font-display); font-weight: 800; font-size: 26px; line-height: 1.25; margin: 6px 0 12px; overflow-wrap: anywhere; }
+.seo-lead { color: var(--ink-2); font-size: 16px; line-height: 1.6; margin: 0 0 14px; }
+.help-prose h3 { font-size: 16px; color: var(--ink); margin: 16px 0 4px; }
+.seo-h2 { font-family: var(--font-display); font-size: 20px; font-weight: 800; line-height: 1.3; color: var(--ink); margin: 26px 0 6px; text-wrap: balance; }
+.seo-faq dl { margin: 0; }
+.seo-faq dt { font-weight: 700; font-size: 15.5px; line-height: 1.4; margin: 14px 0 3px; color: var(--ink); }
+.seo-faq dd { margin: 0; color: var(--ink-2); font-size: 15px; line-height: 1.6; }
+.seo-faq dd a, .help-prose a { color: var(--brand-strong); }
+.help-prose [dir="ltr"], .seo-faq [dir="ltr"] { text-align: left; direction: ltr; }
+.seo-cta { margin: 24px 0 4px; }
+.seo-note { color: var(--muted); font-size: 13.5px; line-height: 1.5; margin: 8px 0 0; }
+.seo-note a { color: var(--brand-strong); }
+.seo-related { margin-top: 28px; }
+.seo-cat { font-family: var(--font-display); font-size: 18px; font-weight: 700; margin: 26px 4px 10px; }
+.seo-list { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.seo-list a { display: block; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); color: var(--ink); text-decoration: none; }
+.seo-list b { display: block; font-size: 15px; line-height: 1.35; }
+.seo-list small { display: block; color: var(--muted); font-size: 13px; line-height: 1.45; margin-top: 2px; }
+.seo-foot { margin-top: 36px; text-align: center; font-size: 12.5px; color: var(--muted); line-height: 1.8; }
+.seo-foot a { color: var(--brand-strong); }
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "שווה בשווה",
+   "item": "https://shavehbeshaveh.co.il/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "מדריכים",
+   "item": "https://shavehbeshaveh.co.il/guides/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "מה זה שווה בשווה ואיך זה עובד",
+   "item": "https://shavehbeshaveh.co.il/guides/what-is-shaveh-beshaveh.html"
+  }
+ ]
+}</script>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "@id": "https://shavehbeshaveh.co.il/guides/what-is-shaveh-beshaveh.html#article",
+   "headline": "מה זה שווה בשווה ואיך זה עובד",
+   "description": "שווה בשווה היא אפליקציית ווב ישראלית לחלוקת הוצאות: פותחים קבוצה, החברים מצטרפים בקישור, רושמים מי שילם, והאפליקציה מחשבת מי חייב למי. גם באנגלית.",
+   "inLanguage": "he",
+   "mainEntityOfPage": "https://shavehbeshaveh.co.il/guides/what-is-shaveh-beshaveh.html",
+   "image": "https://shavehbeshaveh.co.il/og.png",
+   "author": {
+    "@type": "Organization",
+    "name": "שווה בשווה",
+    "url": "https://shavehbeshaveh.co.il/"
+   },
+   "publisher": {
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://shavehbeshaveh.co.il/icons/icon-512.png"
+    },
+    "@type": "Organization",
+    "name": "שווה בשווה",
+    "url": "https://shavehbeshaveh.co.il/"
+   },
+   "dateModified": "2026-10-14"
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://shavehbeshaveh.co.il/guides/what-is-shaveh-beshaveh.html#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "האם צריך להתקין את שווה בשווה?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "לא. היא עובדת בדפדפן של הטלפון, והחברים מצטרפים בקישור. מי שרוצה מוסיף אותה למסך הבית, והיא נפתחת כמו אפליקציה."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "האם הכסף עובר דרך שווה בשווה?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "לא. האפליקציה מחשבת ומציגה מי מעביר למי. ההעברה נעשית ישירות ביניכם, בביט, בפייבוקס, בהעברה בנקאית או במזומן."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Shaveh Beshaveh available in English?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The app itself is in Hebrew, right to left, built for groups in Israel. This page carries an English summary so that English speakers can understand what it does: no installation, join by link, and automatic \"who pays whom\" with WhatsApp settlement messages."
+     }
+    }
+   ]
+  }
+ ]
+}</script>
+</head>
+<body>
+<main class="seo-page">
+<header class="seo-top">
+  <a class="seo-brand" href="../">שווה בשווה<small>רושמים מי שילם — והחשבון מסתדר מעצמו</small></a>
+  <a class="btn sm seo-open" href="../?ref=help">לאפליקציה</a>
+</header>
+<nav class="seo-crumbs" aria-label="מיקום באתר"><a href="../">שווה בשווה</a><span aria-hidden="true">›</span><a href="./">מדריכים</a></nav><article>
+<p class="help-eyebrow">מדריך</p>
+<h1 class="seo-h1">מה זה שווה בשווה ואיך זה עובד</h1>
+<p class="seo-lead">הסבר קצר למי שנתקל ב״שווה בשווה״ בפעם הראשונה: מה היא עושה, למי היא מתאימה, מה היא במכוון לא עושה, ואיך מתחילים. בסוף העמוד יש תקציר באנגלית.</p>
+<p class="seo-cta"><a class="btn primary" href="../?ref=guide-what-is-shaveh-beshaveh">לפתיחת קבוצה בחינם</a></p>
+<div class="help-prose">
+<h2 class="seo-h2">מה זה</h2>
+<p>״שווה בשווה״ היא אפליקציית ווב בעברית לחלוקת הוצאות משותפות והתחשבנות בקבוצה. השם אומר הכול: כל אחד משלם את חלקו, שווה בשווה. היא נבנתה בישראל לקבוצות ישראליות, ועובדת בדפדפן של הטלפון, בלי התקנה מחנות האפליקציות ובלי הרשמה.</p>
+<h2 class="seo-h2">איך זה עובד, בארבעה צעדים</h2>
+<ol><li>פותחים קבוצה לפי סוג האירוע: טיול, מנגל, מפגש משפחתי, ערב צוות, פגישת מחזור, חתונה או שמחה, הפקת אירוע, קבלן או פרויקט, או דירת שותפים.</li><li>שולחים לחברים קישור הצטרפות, בדרך כלל בוואטסאפ. כל אחד מצטרף עם שם ומספר טלפון בלבד.</li><li>כל מי שמשלם רושם את ההוצאה: סכום, מי שילם, על מי היא מתחלקת, ואם רוצים גם צילום קבלה.</li><li>האפליקציה מחשבת לכל אחד כמה שילם, מה חלקו וכמה נשאר לו לקבל או לשלם, ומציגה ״מי מעביר למי״. בסוף מי שנשאר לו לשלם מקבל הודעת וואטסאפ אישית, ישירות למספר שלו.</li></ol>
+<p>ההסבר המפורט במאמר <a href="../help/first-group.html">איך מתחילים: פתיחת הקבוצה הראשונה</a>.</p>
+<h2 class="seo-h2">למי זה מתאים</h2>
+<ul><li><a href="trip-expenses.html">טיול</a> בארץ או בחו״ל, עם הוצאות במטבע זר.</li><li><a href="roommates-expenses.html">דירת שותפים</a>: שכירות, חשבונות וסופר, לאורך זמן.</li><li><a href="family-bbq-expenses.html">מנגל ומפגש משפחתי</a>, עם חלוקה לפי מבוגרים וילדים.</li><li>ערב צוות, פגישת מחזור, חתונה או שמחה, עם תקציב ומעקב.</li><li>מפיקים, קבלנים ומארגנים שמנהלים הוצאות עבור לקוח, עם רישיון עסקי ומיתוג.</li></ul>
+<h2 class="seo-h2">מה האפליקציה במכוון לא עושה</h2>
+<ul><li><b>לא מעבירה כסף.</b> היא מחשבת ומציגה מי מעביר למי; ההעברה נעשית ישירות ביניכם, בביט, בפייבוקס, בהעברה בנקאית או במזומן, ואתם מסמנים ״שילמתי״ או ״קיבלתי״.</li><li><b>לא מתחברת לחשבון הבנק או לכרטיס האשראי</b> של המשתתפים.</li><li><b>לא שולחת הודעות בעצמה.</b> היא מכינה הודעות וואטסאפ מוכנות, ואתם בוחרים למי לשלוח מהוואטסאפ שלכם.</li><li><b>לא דורשת שכולם יתקינו משהו.</b> די בקישור.</li></ul>
+<h2 class="seo-h2">פרטיות בקצרה</h2>
+<p>נשמרים שם, מספר טלפון, פרטי ההוצאות והקבלות שהועלו, בשרתים באיחוד האירופי ובתקשורת מוצפנת. מנהל הקבוצה קובע מה המשתתפים רואים: ברירת המחדל היא שכל משתתף רואה רק את שלו. המידע לא נמכר ולא מועבר לשיווק. פרטים במאמר <a href="../help/privacy.html">פרטיות: איזה מידע נשמר ומי רואה אותו</a>.</p>
+<h2 class="seo-h2">כמה זה עולה</h2>
+<p>מתחילים בחינם. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת, בלי חידוש אוטומטי, ורישיונות לעסקים. המחירים המעודכנים במאמר <a href="../help/plans-prices.html">המסלולים והמחירים</a>.</p>
+<div lang="en" dir="ltr">
+<h2 class="seo-h2">In English: what Shaveh Beshaveh is</h2>
+<p>Shaveh Beshaveh (שווה בשווה, Hebrew for &quot;equally&quot; or &quot;fifty-fifty&quot;) is a Hebrew-first web app for splitting shared expenses and settling up in a group, made in Israel. There is nothing to install and no account to create: the organizer opens a group in the phone's browser and shares a join link, and friends join with a name and a phone number only. Whoever pays records the expense (amount, who paid, who shares it, optional receipt photo), and the app computes every member's balance and who pays whom, either directly to each payer or netted so that fewer transfers are needed. Expenses can be split equally, by custom amounts, or per head with adults and children; foreign-currency expenses are converted into the group's currency; and everyone who still owes gets a personal WhatsApp settlement message that states how the recipient prefers to be paid (Bit, PayBox, bank transfer or cash). Money never passes through the app. It starts free, with paid per-group plans and business licenses for event producers and contractors. It suits trips in Israel and abroad, roommates, family barbecues and gatherings, team evenings, weddings and celebrations.</p>
+</div>
+</div>
+<section class="seo-faq">
+<h2 class="seo-h2">שאלות נפוצות</h2>
+<dl>
+<dt>האם צריך להתקין את שווה בשווה?</dt>
+<dd>לא. היא עובדת בדפדפן של הטלפון, והחברים מצטרפים בקישור. מי שרוצה מוסיף אותה למסך הבית, והיא נפתחת כמו אפליקציה.</dd>
+<dt>האם הכסף עובר דרך שווה בשווה?</dt>
+<dd>לא. האפליקציה מחשבת ומציגה מי מעביר למי. ההעברה נעשית ישירות ביניכם, בביט, בפייבוקס, בהעברה בנקאית או במזומן.</dd>
+<dt lang="en" dir="ltr">Is Shaveh Beshaveh available in English?</dt>
+<dd lang="en" dir="ltr">The app itself is in Hebrew, right to left, built for groups in Israel. This page carries an English summary so that English speakers can understand what it does: no installation, join by link, and automatic &quot;who pays whom&quot; with WhatsApp settlement messages.</dd>
+</dl>
+</section>
+</article>
+<p class="seo-cta"><a class="btn primary" href="../?ref=guide-what-is-shaveh-beshaveh">לפתיחת קבוצה בחינם</a></p>
+<p class="seo-note">בלי התקנה ובלי הרשמה: החברים מצטרפים בקישור, עם שם ומספר טלפון בלבד.</p>
+<section class="seo-related">
+<h2 class="seo-cat">מאמרי עזרה קשורים</h2>
+<ul class="seo-list">
+<li><a href="../help/what-is.html"><b>מה זה ״שווה בשווה״?</b><small>״שווה בשווה״ היא אפליקציית ווב בעברית לחלוקת הוצאות והתחשבנות בקבוצה: פותחים קבוצה, החברים מצטרפים בקישור, רושמים מי שילם — והאפליקציה מחשבת מי חייב למי.</small></a></li>
+<li><a href="../help/first-group.html"><b>איך מתחילים: פתיחת הקבוצה הראשונה</b><small>פתיחת הקבוצה הראשונה בארבעה צעדים: בוחרים מה מארגנים, ממלאים שם וטלפון, מאשרים את התקנון — ושולחים לחברים קישור הזמנה.</small></a></li>
+<li><a href="../help/join.html"><b>איך מצטרפים לקבוצה מקישור?</b><small>איך מצטרפים לקבוצה מקישור הזמנה: לוחצים על הקישור, ממלאים שם וטלפון, בוחרים ״רק מעכשיו״ או ״גם על מה שכבר שולם״ — ונכנסים.</small></a></li>
+<li><a href="../help/privacy.html"><b>פרטיות: איזה מידע נשמר ומי רואה אותו</b><small>איזה מידע נשמר (שם, טלפון, הוצאות, קבלות), למה, איפה (שרתים באיחוד האירופי), מי רואה אותו ומתי הוא נמחק.</small></a></li>
+</ul>
+</section>
+<section class="seo-related">
+<h2 class="seo-cat">מדריכים נוספים</h2>
+<ul class="seo-list">
+<li><a href="expense-splitting-app.html"><b>אפליקציה לחלוקת הוצאות בקבוצה</b><small>שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובחינם עד 10 הוצאות.</small></a></li>
+<li><a href="trip-expenses.html"><b>חלוקת הוצאות בטיול: המדריך המעשי</b><small>איך מחלקים הוצאות בטיול בארץ ובחו״ל: מי שילם על מה, מטבע זר, ילדים בחצי מחיר והתחשבנות בסוף, צעד אחר צעד.</small></a></li>
+<li><a href="roommates-expenses.html"><b>התחשבנות בין שותפים לדירה</b><small>איך מחלקים שכירות, חשבונות וקניות בין שותפים לדירה בלי טבלאות ובלי ויכוחים: קבוצה אחת, רישום שוטף ומאזן שמתעדכן לבד.</small></a></li>
+<li><a href="family-bbq-expenses.html"><b>חלוקת הוצאות במנגל ובאירוע משפחתי</b><small>איך מחלקים הוצאות כשמגיעות משפחות בגדלים שונים: חלוקה לפי ראש, ילדים בחצי מחיר או בחינם, ודוגמה מספרית פשוטה.</small></a></li>
+<li><a href="who-owes-whom.html"><b>מי חייב למי? כך מחשבים התחשבנות בין חברים</b><small>השיטה לחישוב התחשבנות בקבוצה: כמה כל אחד שילם, מה חלקו, ואיך מגיעים למינימום העברות. עם דוגמה של ארבעה חברים.</small></a></li>
+<li><a href="expense-splitting-apps-israel-comparison.html"><b>איזו אפליקציה לחלוקת הוצאות מתאימה לישראלים? השוואה</b><small>השוואה הוגנת בין שווה בשווה, Splitwise ו״כמה בזבזתי״: עברית, התקנה והצטרפות בקישור, ילדים ומטבע זר, ביט ופייבוקס, ומה מתוכן בחינם.</small></a></li>
+</ul>
+</section>
+<footer class="seo-foot">
+  <a href="../guides/">מדריכים</a> · <a href="../help/">מרכז העזרה</a> · <a href="../?legal=terms">תקנון</a> · <a href="../?legal=privacy">פרטיות</a> · <a href="../?legal=a11y">נגישות</a> · <a href="../?help=cancel">ביטול עסקה</a><br>
+  <a href="https://www.instagram.com/shavehbeshaveh.app/" rel="me noopener" target="_blank">אינסטגרם<span class="sr-only"> (נפתח בלשונית חדשה)</span></a> · שווה בשווה · חלוקת הוצאות הוגנת, לכל קבוצה
+</footer>
+</main>
+</body>
+</html>

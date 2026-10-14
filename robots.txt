@@ -7,4 +7,23 @@ Allow: /
 # (המאמרים עצמם זמינים כעמודים סטטיים ב־/help/)
 Disallow: /help/kb.json
 Disallow: /help/search.js
+
+# סוכני הבינה המלאכותית — מותרים במפורש, כדי שמי ששואל ChatGPT, Claude, Perplexity, Gemini
+# או Grok ״איזו אפליקציה לחלוקת הוצאות בישראל?״ ימצא את האתר. אותם כללים כמו לכולם.
+# תקציר קריא למודלים: /llms.txt (קצר) ו־/llms-full.txt (כל המדריכים והמאמרים), נוצרים בבנייה.
+# הסורק של xAI (Grok) אינו מתועד רשמית — אינו ברשימה; הוא מכוסה בקבוצת ‎*‎ שלמעלה.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: CCBot
+Allow: /
+Disallow: /help/kb.json
+Disallow: /help/search.js
+
 Sitemap: https://shavehbeshaveh.co.il/sitemap.xml

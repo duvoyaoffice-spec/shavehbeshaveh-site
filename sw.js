@@ -23,7 +23,7 @@
    אינם עוברים כאן — הם מאתרים אחרים ותמיד מהרשת (או מהמטמון הרגיל של
    הדפדפן).
    ============================================================ */
-const VER = "ecf909270d";
+const VER = "042521739b";
 const CACHE = "shaveh-" + VER;
 /* קובצי המעטפת של הגרסה הזו — מוזרקים בבנייה */
 const SHELL = ["./", "./config.9cb975f5da.js", "./logic.3112356215.js", "./app.818f0ed77a.js", "./styles.0a31ec4c51.css", "./help/search.js?v=57d6a9c5", "./help/kb.json?v=57d6a9c5", "./manifest.webmanifest", "./icons/icon-192.png"];
