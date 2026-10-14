@@ -23,10 +23,10 @@
    אינם עוברים כאן — הם מאתרים אחרים ותמיד מהרשת (או מהמטמון הרגיל של
    הדפדפן).
    ============================================================ */
-const VER = "042521739b";
+const VER = "cff045c56d";
 const CACHE = "shaveh-" + VER;
 /* קובצי המעטפת של הגרסה הזו — מוזרקים בבנייה */
-const SHELL = ["./", "./config.9cb975f5da.js", "./logic.3112356215.js", "./app.818f0ed77a.js", "./styles.0a31ec4c51.css", "./help/search.js?v=57d6a9c5", "./help/kb.json?v=57d6a9c5", "./manifest.webmanifest", "./icons/icon-192.png"];
+const SHELL = ["./", "./config.9cb975f5da.js", "./logic.7e63b45510.js", "./app.68a787b42b.js", "./styles.2dd809c4c4.css", "./help/search.js?v=28661fdf", "./help/kb.json?v=28661fdf", "./manifest.webmanifest", "./icons/icon-192.png"];
 /* קובץ עם חתימת תוכן בשם: app.0a1b2c3d4e.js / styles.0a1b2c3d4e.css */
 const HASHED = /\.[0-9a-f]{10}\.(?:js|css)$/;
 
