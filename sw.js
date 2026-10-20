@@ -23,10 +23,10 @@
    אינם עוברים כאן — הם מאתרים אחרים ותמיד מהרשת (או מהמטמון הרגיל של
    הדפדפן).
    ============================================================ */
-const VER = "5d67edb2e9";
+const VER = "cef4594514";
 const CACHE = "shaveh-" + VER;
 /* קובצי המעטפת של הגרסה הזו — מוזרקים בבנייה */
-const SHELL = ["./", "./config.9cb975f5da.js", "./logic.b9b7a07cc1.js", "./app.01ee60a64b.js", "./styles.7502009135.css", "./help/search.js?v=81b817f6", "./help/kb.json?v=81b817f6", "./manifest.webmanifest", "./icons/icon-192.png"];
+const SHELL = ["./", "./config.9cb975f5da.js", "./logic.feb6330588.js", "./app.3e187b5a7d.js", "./styles.80784ef4e6.css", "./help/search.js?v=b2273b99", "./help/kb.json?v=b2273b99", "./manifest.webmanifest", "./icons/icon-192.png"];
 /* קובץ עם חתימת תוכן בשם: app.0a1b2c3d4e.js / styles.0a1b2c3d4e.css */
 const HASHED = /\.[0-9a-f]{10}\.(?:js|css)$/;
 
@@ -139,8 +139,11 @@ self.addEventListener("fetch", (e) => {
   if (req.mode === "navigate") {
     const rest = url.pathname.slice(scope.length);
     if (rest === "" || rest === "index.html") { e.respondWith(shell(req)); return; }
-    /* ניווט לכתובת אחרת באתר — מהרשת; בלי רשת — מעטפת האפליקציה */
-    e.respondWith(fetch(req).catch(() => caches.open(CACHE).then((c) => c.match("./")).then((hit) => hit || Response.error())));
+    /* ניווט לכתובת אחרת באתר (מרכז העזרה, מדריכים) — מהרשת; בלי רשת — הפניה לשורש, שם המעטפת
+       מוגשת מהמטמון. לא מגישים את המעטפת תחת הכתובת הזו: ה־<script src="app.<hash>.js"> שלה
+       יחסיים, ותחת ‎/help/…‎ היו נפתרים ל־‎/help/app.<hash>.js‎ — לא במטמון ואין רשת — שלד תקוע */
+    e.respondWith(fetch(req).catch(() => caches.open(CACHE).then((c) => c.match("./"))
+      .then((hit) => (hit ? Response.redirect(self.registration.scope, 302) : Response.error()))));
     return;
   }
   /* כתובות עם פרמטרים פרטיים (‎?paid=<מזהה>‎, ‎?join=<מזהה>‎, ‎?paytest=…‎ ישן ועוד) לעולם לא

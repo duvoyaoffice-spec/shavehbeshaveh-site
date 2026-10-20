@@ -148,7 +148,7 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 ### תשלום וקבלות
 
-- [איך משלמים על מסלול או רישיון?](https://shavehbeshaveh.co.il/help/how-to-pay.html): איך משלמים על מסלול, השלמה או רישיון: ממסך המסלולים, בתשלום מאובטח או דרך מנהל השירות — ומה קורה מיד אחרי התשלום.
+- [איך משלמים על מסלול או רישיון?](https://shavehbeshaveh.co.il/help/how-to-pay.html): איך משלמים על מסלול, השלמה או רישיון: ממסך המסלולים, בתשלום מאובטח או דרך מפעיל השירות — ומה קורה מיד אחרי התשלום.
 - [תשלום מאובטח באתר (אשראי, Bit, Apple Pay, Google Pay)](https://shavehbeshaveh.co.il/help/secure-checkout.html): תשלום מאובטח באתר: אשראי, Bit, Apple Pay ו־Google Pay בעמוד התשלום של Grow, ומה ממלאים כדי שהקבלה תצא נכון.
 - [קבלה על התשלום](https://shavehbeshaveh.co.il/help/payment-receipt.html): קבלה על התשלום נשלחת אוטומטית מחברת הסליקה: על איזה שם היא מונפקת, לאן היא נשלחת ואיפה רואים את פרטי הרכישה.
 - [ביטול עסקה והחזר כספי](https://shavehbeshaveh.co.il/help/cancellation.html): ביטול עסקה והחזר כספי לפי חוק הגנת הצרכן: תוך 14 יום, איך שולחים הודעת ביטול (דוא״ל או טופס), ומה דמי הביטול.
