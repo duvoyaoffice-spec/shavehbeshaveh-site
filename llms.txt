@@ -161,7 +161,7 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 ### נגישות
 
-- [נגישות](https://shavehbeshaveh.co.il/help/accessibility.html): ״שווה בשווה״ נגישה לפי ת״י 5568 ו־WCAG 2.1 AA: ניווט במקלדת ובקורא מסך, ניגודיות תקנית, כפתורים גדולים — ולמי פונים בקושי בנגישות.
+- [נגישות](https://shavehbeshaveh.co.il/help/accessibility.html): ״שווה בשווה״ נגישה לפי ת״י 5568 ו־WCAG 2.1 AA, ויש בה תפריט נגישות: הגדלת טקסט, ניגודיות גבוהה, הדגשת קישורים ועוד — ולמי פונים בקושי בנגישות.
 
 ### תקלות ושאלות טכניות
 
