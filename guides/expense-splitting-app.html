@@ -6,14 +6,14 @@
 <meta name="referrer" content="strict-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>אפליקציה לחלוקת הוצאות בקבוצה — בעברית ובלי התקנה · שווה בשווה</title>
-<meta name="description" content="שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובחינם עד 10 הוצאות.">
+<meta name="description" content="שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובתקופת ההשקה הכול חינם, ללא הגבלת הוצאות.">
 <link rel="canonical" href="https://shavehbeshaveh.co.il/guides/expense-splitting-app.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="שווה בשווה">
 <meta property="og:locale" content="he_IL">
 <meta property="og:url" content="https://shavehbeshaveh.co.il/guides/expense-splitting-app.html">
 <meta property="og:title" content="אפליקציה לחלוקת הוצאות בקבוצה — בעברית ובלי התקנה · שווה בשווה">
-<meta property="og:description" content="שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובחינם עד 10 הוצאות.">
+<meta property="og:description" content="שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובתקופת ההשקה הכול חינם, ללא הגבלת הוצאות.">
 <meta property="og:image" content="https://shavehbeshaveh.co.il/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F3EA">
@@ -22,11 +22,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&family=Frank+Ruhl+Libre:wght@500;700;800;900&display=swap">
-<link rel="stylesheet" href="../styles.0374b8ad49.css">
+<link rel="stylesheet" href="../styles.d3a85018b1.css">
 <style>
 .seo-page { max-width: 640px; margin: 0 auto; padding: 16px 18px 48px; }
 .seo-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 2px 4px; }
-.seo-brand { font-family: var(--font-display); font-weight: 900; font-size: 24px; line-height: 1.1; color: var(--ink); text-decoration: none; }
+.seo-brand { display: inline-block; min-height: 44px; font-family: var(--font-display); font-weight: 900; font-size: 24px; line-height: 1.1; color: var(--ink); text-decoration: none; }
 .seo-brand small { display: block; font-family: var(--font-body); font-weight: 400; font-size: 12.5px; color: var(--muted); margin-top: 3px; }
 .seo-open { flex: none; }
 .seo-crumbs { font-size: 13px; color: var(--muted); margin: 18px 0 4px; }
@@ -52,6 +52,21 @@
 .seo-list small { display: block; color: var(--muted); font-size: 13px; line-height: 1.45; margin-top: 2px; }
 .seo-foot { margin-top: 36px; text-align: center; font-size: 12.5px; color: var(--muted); line-height: 1.8; }
 .seo-foot a { color: var(--brand-strong); }
+.seo-launch { margin: 14px 0 6px; font-size: 15px; padding: 12px 15px; }
+.seo-launch a { color: var(--brand-strong); font-weight: 700; }
+.nf { text-align: center; padding: 26px 0 4px; }
+.nf .art { width: 112px; height: 112px; margin: 0 auto 10px; color: var(--brand); }
+.nf .art svg { width: 100%; height: 100%; display: block; }
+.nf .seo-lead { max-width: 30em; margin-inline: auto; }
+.nf-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 18px 0 6px; }
+.nf-actions .btn { flex: 1 1 160px; max-width: 240px; }
+/* פתיחת קבוצה לפי סוג — אותה משפחה כמו אריחי הסוג במסך הבית: משטח ‎--tile‎, גבול ‎--tile-line‎, אייקון קווי בעיגול ‎--disc‎ עם טבעת ‎--gold-hair‎ */
+.seo-list a.nf-kind { display: flex; align-items: center; gap: 12px; background: var(--tile); border-color: var(--tile-line); }
+.seo-list a.nf-kind:hover { background: var(--tile-hover); }
+.nf-ic { flex: none; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--disc); box-shadow: inset 0 0 0 1px var(--gold-hair); color: var(--brand-strong); }
+.nf-ic svg { display: block; }
+.nf-kind > span:last-child { min-width: 0; }
 </style>
 <script type="application/ld+json">{
  "@context": "https://schema.org",
@@ -84,7 +99,7 @@
    "@type": "Article",
    "@id": "https://shavehbeshaveh.co.il/guides/expense-splitting-app.html#article",
    "headline": "אפליקציה לחלוקת הוצאות בקבוצה",
-   "description": "שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובחינם עד 10 הוצאות.",
+   "description": "שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובתקופת ההשקה הכול חינם, ללא הגבלת הוצאות.",
    "inLanguage": "he",
    "mainEntityOfPage": "https://shavehbeshaveh.co.il/guides/expense-splitting-app.html",
    "image": "https://shavehbeshaveh.co.il/og.png",
@@ -102,7 +117,7 @@
     "name": "שווה בשווה",
     "url": "https://shavehbeshaveh.co.il/"
    },
-   "dateModified": "2026-10-14"
+   "dateModified": "2026-10-23"
   },
   {
    "@type": "FAQPage",
@@ -129,7 +144,7 @@
      "name": "האם אפשר להשתמש בחינם?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "כן. המסלול החינמי כולל עד 10 הוצאות בקבוצה, בלי הגבלת זמן. למנגל או לארוחה משותפת זה מספיק בדרך כלל."
+      "text": "כן. בתקופת ההשקה הכול חינם וללא הגבלת הוצאות, ואין צורך לרכוש. אחרי התקופה המסלול החינמי כולל עד 10 הוצאות בקבוצה, בלי הגבלת זמן. למנגל או לארוחה משותפת זה מספיק בדרך כלל."
      }
     }
    ]
@@ -143,7 +158,8 @@
   <a class="seo-brand" href="../">שווה בשווה<small>רושמים מי שילם — והחשבון מסתדר מעצמו</small></a>
   <a class="btn sm seo-open" href="../?ref=help">לאפליקציה</a>
 </header>
-<nav class="seo-crumbs" aria-label="מיקום באתר"><a href="../">שווה בשווה</a><span aria-hidden="true">›</span><a href="./">מדריכים</a></nav><article>
+<nav class="seo-crumbs" aria-label="מיקום באתר"><a href="../">שווה בשווה</a><span aria-hidden="true">›</span><a href="./">מדריכים</a></nav><div class="banner launch-free seo-launch" role="note" aria-label="תקופת ההשקה"><span class="plan-badge launch">חינם בתקופת ההשקה</span><p>כרגע, בתקופת ההשקה, הכול חינם — ללא הגבלת הוצאות ובלי צורך לרכוש. קבוצה שנפתחת עכשיו נשארת ללא הגבלה גם אחרי התקופה. <a href="../help/plans-prices.html">המחירון שיחול אחרי תקופת ההשקה</a></p></div>
+<article>
 <p class="help-eyebrow">מדריך</p>
 <h1 class="seo-h1">אפליקציה לחלוקת הוצאות בקבוצה</h1>
 <p class="seo-lead">מי שילם על הלינה? כמה כל אחד חייב? ״שווה בשווה״ עושה את החשבון במקומכם: כל אחד רושם מה שילם, והאפליקציה מחשבת מי מעביר למי.</p>
@@ -156,7 +172,8 @@
 <h2 class="seo-h2">לאילו קבוצות זה מתאים</h2>
 <ul><li><a href="trip-expenses.html">חלוקת הוצאות בטיול</a>, בארץ ובחו״ל.</li><li><a href="roommates-expenses.html">התחשבנות בין שותפים לדירה</a>: שכירות, חשבונות וסופר.</li><li><a href="family-bbq-expenses.html">מנגל ואירוע משפחתי</a>, לפי מבוגרים וילדים.</li><li><a href="../help/group-events.html">ערב צוות, פגישת מחזור, חתונה או שמחה</a>, עם תקציב ומעקב.</li><li><a href="../help/group-producer-contractor.html">הפקת אירוע או פרויקט</a>.</li></ul>
 <h2 class="seo-h2">כמה זה עולה</h2>
-<p>מתחילים בחינם: עד 10 הוצאות בקבוצה, בלי הגבלת זמן. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת: שבוע ב־15 ₪, חודש ב־29 ₪ או שנה ב־250 ₪. אין חידוש אוטומטי. הפרטים המלאים במאמר <a href="../help/plans-prices.html">המסלולים והמחירים</a>.</p>
+<p>בתקופת ההשקה הכול חינם: כל הקבוצות ללא הגבלת הוצאות, ואין צורך לרכוש מסלול. קבוצה שנפתחת בתקופה הזו נשארת ללא הגבלה גם אחריה.</p>
+<p>אחרי תקופת ההשקה יחול המחירון: עד 10 הוצאות בקבוצה בחינם, בלי הגבלת זמן, ולקבוצה פעילה יותר מסלולים לקבוצה אחת: שבוע ב־15 ₪, חודש ב־29 ₪ או שנה ב־250 ₪. אין חידוש אוטומטי. הפרטים המלאים במאמר <a href="../help/plans-prices.html">המסלולים והמחירים</a>.</p>
 </div>
 <section class="seo-faq">
 <h2 class="seo-h2">שאלות נפוצות</h2>
@@ -166,7 +183,7 @@
 <dt>האם הכסף עובר דרך האפליקציה?</dt>
 <dd>לא. האפליקציה מחשבת ומציגה מי מעביר למי. ההעברות נעשות ישירות ביניכם: בביט, בפייבוקס, בהעברה בנקאית או במזומן.</dd>
 <dt>האם אפשר להשתמש בחינם?</dt>
-<dd>כן. המסלול החינמי כולל עד 10 הוצאות בקבוצה, בלי הגבלת זמן. למנגל או לארוחה משותפת זה מספיק בדרך כלל.</dd>
+<dd>כן. בתקופת ההשקה הכול חינם וללא הגבלת הוצאות, ואין צורך לרכוש. אחרי התקופה המסלול החינמי כולל עד 10 הוצאות בקבוצה, בלי הגבלת זמן. למנגל או לארוחה משותפת זה מספיק בדרך כלל.</dd>
 </dl>
 </section>
 </article>

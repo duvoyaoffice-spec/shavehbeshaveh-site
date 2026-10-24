@@ -1,11 +1,11 @@
 # שווה בשווה (Shaveh Beshaveh)
 
-> רושמים מי שילם — והחשבון מסתדר מעצמו: חלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולכל קבוצה. הצטרפות בקישור, בלי התקנה · חלוקה לפי מבוגרים וילדים, ב־₪ ובמט״ח · הודעת התחשבנות אישית בוואטסאפ, עם ביט ופייבוקס. מתחילים בחינם.
+> רושמים מי שילם — והחשבון מסתדר מעצמו: חלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולכל קבוצה. הצטרפות בקישור, בלי התקנה · חלוקה לפי מבוגרים וילדים, ב־₪ ובמט״ח · הודעת התחשבנות אישית בוואטסאפ, עם ביט ופייבוקס. מתחילים בחינם — ובתקופת ההשקה הכול חינם, ללא הגבלת הוצאות.
 
 - כתובת האתר: https://shavehbeshaveh.co.il/
 - אינסטגרם: https://www.instagram.com/shavehbeshaveh.app/
 - יצירת קשר (בכתב, בדוא״ל): shavehbeshaveh.app@gmail.com
-- עודכן: 2026-10-14
+- עודכן: 2026-10-23
 
 ## English summary
 
@@ -15,7 +15,7 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 - Whoever pays records the expense: amount, who paid, who shares it, and an optional receipt photo. The app computes every member's balance and "who pays whom", either directly to each payer or netted so that fewer transfers are needed.
 - Splits: equal, custom amounts, or per head with adults and children (a child can count as free, a quarter, a half, three quarters or a full share).
 - Foreign-currency expenses are converted into the group's currency. The app prepares a personal WhatsApp settlement message for everyone who still owes, stating how the recipient prefers to be paid (Bit, PayBox, bank transfer or cash). Money never passes through the app.
-- Starts free. Paid plans are per group (שבוע, חודש, שנתי) with no automatic renewal, and there are business licenses with the business's logo and name for event producers and contractors. Current plans and prices: https://shavehbeshaveh.co.il/help/plans-prices.html
+- Starts free. During the current launch period everything is free: no expense limit and no purchase needed, and a group opened during the launch period stays unlimited afterwards. After the launch period, paid plans are per group (שבוע, חודש, שנתי) with no automatic renewal, and there are business licenses with the business's logo and name for event producers and contractors. Current plans and prices: https://shavehbeshaveh.co.il/help/plans-prices.html
 - Website: https://shavehbeshaveh.co.il/ · Instagram: https://www.instagram.com/shavehbeshaveh.app/ · Contact (email): shavehbeshaveh.app@gmail.com
 - Full Markdown export of every guide and help article: https://shavehbeshaveh.co.il/llms-full.txt
 
@@ -35,7 +35,9 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 ## מסלולים ומחירים
 
-מתחילים בחינם. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת (שבוע, חודש, שנתי), בלי חידוש אוטומטי, ורישיונות לעסקים עם הלוגו והשם של העסק. המחירים המעודכנים תמיד בעמוד [המסלולים והמחירים](https://shavehbeshaveh.co.il/help/plans-prices.html).
+**תקופת ההשקה:** כרגע, בתקופת ההשקה, הכול חינם — ללא הגבלת הוצאות ובלי צורך לרכוש. קבוצה שנפתחת עכשיו נשארת ללא הגבלה גם אחרי התקופה.
+
+המחירון שיחול אחרי תקופת ההשקה: מתחילים בחינם. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת (שבוע, חודש, שנתי), בלי חידוש אוטומטי, ורישיונות לעסקים עם הלוגו והשם של העסק. המחירים המעודכנים תמיד בעמוד [המסלולים והמחירים](https://shavehbeshaveh.co.il/help/plans-prices.html).
 
 # מדריכים
 
@@ -71,7 +73,9 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 ### כמה זה עולה
 
-מתחילים בחינם: עד 10 הוצאות בקבוצה, בלי הגבלת זמן. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת: שבוע ב־15 ₪, חודש ב־29 ₪ או שנה ב־250 ₪. אין חידוש אוטומטי. הפרטים המלאים במאמר [המסלולים והמחירים](https://shavehbeshaveh.co.il/help/plans-prices.html).
+בתקופת ההשקה הכול חינם: כל הקבוצות ללא הגבלת הוצאות, ואין צורך לרכוש מסלול. קבוצה שנפתחת בתקופה הזו נשארת ללא הגבלה גם אחריה.
+
+אחרי תקופת ההשקה יחול המחירון: עד 10 הוצאות בקבוצה בחינם, בלי הגבלת זמן, ולקבוצה פעילה יותר מסלולים לקבוצה אחת: שבוע ב־15 ₪, חודש ב־29 ₪ או שנה ב־250 ₪. אין חידוש אוטומטי. הפרטים המלאים במאמר [המסלולים והמחירים](https://shavehbeshaveh.co.il/help/plans-prices.html).
 
 ### שאלות נפוצות
 
@@ -79,7 +83,7 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 **האם הכסף עובר דרך האפליקציה?** לא. האפליקציה מחשבת ומציגה מי מעביר למי. ההעברות נעשות ישירות ביניכם: בביט, בפייבוקס, בהעברה בנקאית או במזומן.
 
-**האם אפשר להשתמש בחינם?** כן. המסלול החינמי כולל עד 10 הוצאות בקבוצה, בלי הגבלת זמן. למנגל או לארוחה משותפת זה מספיק בדרך כלל.
+**האם אפשר להשתמש בחינם?** כן. בתקופת ההשקה הכול חינם וללא הגבלת הוצאות, ואין צורך לרכוש. אחרי התקופה המסלול החינמי כולל עד 10 הוצאות בקבוצה, בלי הגבלת זמן. למנגל או לארוחה משותפת זה מספיק בדרך כלל.
 
 ## חלוקת הוצאות בטיול: המדריך המעשי
 
@@ -114,7 +118,9 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 ### כמה זה עולה
 
-טיול קצר עם מעט הוצאות נכנס במסלול החינמי, עד 10 הוצאות. לטיול של כמה ימים מתאים בדרך כלל מסלול שבוע (15 ₪, עד 40 הוצאות) או חודש (29 ₪, עד 80 הוצאות). אפשר גם לחלק את עלות המסלול בין המשתתפים.
+בתקופת ההשקה הכול חינם: גם טיול ארוך עם הרבה הוצאות, ללא הגבלה ובלי לרכוש מסלול. קבוצה שנפתחת עכשיו נשארת ללא הגבלה גם אחרי התקופה.
+
+אחרי תקופת ההשקה: טיול קצר עם מעט הוצאות נכנס במסלול החינמי, עד 10 הוצאות. לטיול של כמה ימים מתאים בדרך כלל מסלול שבוע (15 ₪, עד 40 הוצאות) או חודש (29 ₪, עד 80 הוצאות). אפשר גם לחלק את עלות המסלול בין המשתתפים.
 
 ### שאלות נפוצות
 
@@ -152,7 +158,9 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 ### כמה זה עולה
 
-לדירת שותפים מתאים המסלול השנתי: 250 ₪ לשנה, ללא הגבלת הוצאות. בלי חידוש אוטומטי. אפשר לחלק את העלות בין השותפים.
+בתקופת ההשקה הכול חינם, ללא הגבלת הוצאות ובלי צורך לרכוש מסלול. קבוצה לדירה שנפתחת עכשיו נשארת ללא הגבלה גם אחרי התקופה.
+
+אחרי תקופת ההשקה, לדירת שותפים מתאים המסלול השנתי: 250 ₪ לשנה, ללא הגבלת הוצאות. בלי חידוש אוטומטי. אפשר לחלק את העלות בין השותפים.
 
 ### שאלות נפוצות
 
@@ -188,7 +196,7 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 ### כמה זה עולה
 
-למנגל או לארוחה משותפת המסלול החינמי מספיק בדרך כלל: עד 10 הוצאות בקבוצה, בלי הגבלת זמן.
+בתקופת ההשקה הכול חינם וללא הגבלת הוצאות, ואין צורך לרכוש. אחרי התקופה, למנגל או לארוחה משותפת המסלול החינמי מספיק בדרך כלל: עד 10 הוצאות בקבוצה, בלי הגבלת זמן.
 
 ### שאלות נפוצות
 
@@ -279,7 +287,7 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 ### מה עולה כסף
 
-- **שווה בשווה**: מתחילים בחינם. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת, בלי חידוש אוטומטי, ואפשר לחלק את עלות המסלול בין המשתתפים. המחירים המעודכנים במאמר [המסלולים והמחירים](https://shavehbeshaveh.co.il/help/plans-prices.html).
+- **שווה בשווה**: מתחילים בחינם. בתקופת ההשקה הכול חינם, ללא הגבלת הוצאות, והמסלולים בתשלום יחולו רק אחריה. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת, בלי חידוש אוטומטי, ואפשר לחלק את עלות המסלול בין המשתתפים. המחירים המעודכנים במאמר [המסלולים והמחירים](https://shavehbeshaveh.co.il/help/plans-prices.html).
 - **Splitwise**: שימוש בסיסי בחינם; יכולות מתקדמות במנוי Pro, בחיוב חודשי או שנתי.
 - **כמה בזבזתי**: בחינם, בלי מנוי ובלי פרסומות, לפי תיאור המפתחים.
 
@@ -343,11 +351,11 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 ### כמה זה עולה
 
-מתחילים בחינם. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת, בלי חידוש אוטומטי, ורישיונות לעסקים. המחירים המעודכנים במאמר [המסלולים והמחירים](https://shavehbeshaveh.co.il/help/plans-prices.html).
+מתחילים בחינם. בתקופת ההשקה הכול חינם, ללא הגבלת הוצאות, והמסלולים בתשלום יחולו רק אחריה. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת, בלי חידוש אוטומטי, ורישיונות לעסקים. המחירים המעודכנים במאמר [המסלולים והמחירים](https://shavehbeshaveh.co.il/help/plans-prices.html).
 
 ### In English: what Shaveh Beshaveh is
 
-Shaveh Beshaveh (שווה בשווה, Hebrew for "equally" or "fifty-fifty") is a Hebrew-first web app for splitting shared expenses and settling up in a group, made in Israel. There is nothing to install and no account to create: the organizer opens a group in the phone's browser and shares a join link, and friends join with a name and a phone number only. Whoever pays records the expense (amount, who paid, who shares it, optional receipt photo), and the app computes every member's balance and who pays whom, either directly to each payer or netted so that fewer transfers are needed. Expenses can be split equally, by custom amounts, or per head with adults and children; foreign-currency expenses are converted into the group's currency; and everyone who still owes gets a personal WhatsApp settlement message that states how the recipient prefers to be paid (Bit, PayBox, bank transfer or cash). Money never passes through the app. It starts free, with paid per-group plans and business licenses for event producers and contractors. It suits trips in Israel and abroad, roommates, family barbecues and gatherings, team evenings, weddings and celebrations.
+Shaveh Beshaveh (שווה בשווה, Hebrew for "equally" or "fifty-fifty") is a Hebrew-first web app for splitting shared expenses and settling up in a group, made in Israel. There is nothing to install and no account to create: the organizer opens a group in the phone's browser and shares a join link, and friends join with a name and a phone number only. Whoever pays records the expense (amount, who paid, who shares it, optional receipt photo), and the app computes every member's balance and who pays whom, either directly to each payer or netted so that fewer transfers are needed. Expenses can be split equally, by custom amounts, or per head with adults and children; foreign-currency expenses are converted into the group's currency; and everyone who still owes gets a personal WhatsApp settlement message that states how the recipient prefers to be paid (Bit, PayBox, bank transfer or cash). Money never passes through the app. It starts free (during the current launch period everything is free, with no expense limit), with paid per-group plans and business licenses for event producers and contractors. It suits trips in Israel and abroad, roommates, family barbecues and gatherings, team evenings, weddings and celebrations.
 
 ### שאלות נפוצות
 
@@ -592,12 +600,12 @@ Shaveh Beshaveh (שווה בשווה, Hebrew for "equally" or "fifty-fifty") is 
 כתובת: https://shavehbeshaveh.co.il/help/join.html
 
 1. לוחצים על הקישור שקיבלתם. מסך ״הוזמנתם להצטרף אל…״ נפתח עם שם הקבוצה והמשתתפים שכבר בה.
-2. ממלאים את השם ואת מספר הטלפון (למשל 050-0000000). הטלפון הוא המפתח לחשבון שלכם בקבוצה.
+2. ממלאים את השם ואת מספר הטלפון (למשל 050-0000000; מספר מחו״ל — עם + וקידומת המדינה, למשל ‎+44 7911 123456‎). המספר מזהה אתכם בקבוצה — גם בכניסה ממכשיר אחר. הוא גלוי לחברי הקבוצה (לכל מי שמחזיק בקישור ההזמנה), ואינו נמכר או מועבר לשיווק.
 3. בקבוצה שמתחלקת לפי ראש — מציינים כמה מבוגרים וכמה ילדים באים איתכם.
 4. אם כבר נרשמו בקבוצה הוצאות — בוחרים ״רק מעכשיו״ או ״גם על מה שכבר שולם״.
 5. לוחצים ״הצטרפות לקבוצה״ (ובכך מאשרים את התקנון).
 
-כבר רשומים, או שהמנהל רשם אתכם מראש בשם? ממלאים את אותו השם ואת הטלפון — והמערכת מזהה אתכם. אפשר גם ללחוץ ״כבר רשומים? בחרו את השם שלכם״ בתחתית המסך, ולבחור את השם שלכם מהרשימה.
+כבר רשומים, או שהמנהל רשם אתכם מראש בשם? ממלאים את אותו השם ואת הטלפון — והמערכת מזהה אתכם. הקלדתם שם קצת אחר (למשל ״דוד כהן״, כשהמנהל רשם ״דוד״)? תופיע השאלה ״האם אתם דוד?״ — ״כן, זה אני״ מצרף אתכם לחשבון הקיים, עם ההוצאות שכבר רשומות עליו, ו״לא, זה לא אני״ פותח חשבון חדש. אפשר גם ללחוץ ״כבר רשומים? בחרו את השם שלכם״ בתחתית המסך, ולבחור את השם שלכם מהרשימה.
 
 ### הצטרפות באמצע: ״רק מעכשיו״ או ״גם על מה שכבר שולם״
 
@@ -627,6 +635,8 @@ Shaveh Beshaveh (שווה בשווה, Hebrew for "equally" or "fifty-fifty") is 
 משתתף שנרשם בשם יכול להצטרף אחר כך בקישור עם אותו השם ועם הטלפון שלו, והחשבון ישויך אליו.
 
 צירוף בדיעבד של משתתף קיים: ב״תמונת הקבוצה״ לוחצים על המשתתף. אם הצטרף ״רק מעכשיו״ ויש הוצאות משותפות מלפני כן, מופיע כפתור ״צירוף גם להוצאות שכבר נרשמו״.
+
+רשמתם הוצאות לפני שהחברים הצטרפו? כשבקבוצה רק אתם, ״כולם״ הוא רק אתם — וההוצאה נשארת עליכם. כשמישהו מצטרף אחר כך ״רק מעכשיו״, מופיעה במסך הקבוצה הודעה ״הוצאות שנרשמו לפני שהחברים הצטרפו״, עם כפתור ״צירוף״ לכל מצטרף (באישור) או ״להשאיר כך״.
 
 ### כניסה לחשבון שלי ו״מי אתם בקבוצה?״
 
@@ -1180,7 +1190,7 @@ Shaveh Beshaveh (שווה בשווה, Hebrew for "equally" or "fifty-fifty") is 
 
 קבוצות שנפתחו לפני עדכון המחירים שומרות על התנאים שהיו להן. המצב המדויק מוצג במסך המסלולים.
 
-תקופת השקה: כשמוצג באתר ״חינם בתקופת ההשקה״, כל הקבוצות ללא הגבלת הוצאות ואין צורך לרכוש — כפתורי הרכישה כבויים ולא נגבה תשלום; המחירים שלמעלה הם המחירון שייכנס לתוקף בסיום התקופה. קבוצה שנפתחה בתקופה הזו נשארת ללא הגבלה גם אחריה (״קבוצה מתקופת ההשקה״).
+תקופת השקה: כשמוצג באתר ״חינם בתקופת ההשקה״, כל הקבוצות ללא הגבלת הוצאות ואין צורך לרכוש — כפתורי הרכישה כבויים ולא נגבה תשלום; המחירים שלמעלה הם המחירון שייכנס לתוקף בסיום התקופה. לעסקים שרוצים את השם והלוגו שלהם בקבוצות — בכרטיס הרישיון יש כפתור ״בקשו רישיון השקה חינם״: ממלאים את שם העסק ואת הטלפון שאיתו מנהלים את הקבוצות, והבקשה נשלחת אלינו בדוא״ל. ההפעלה ידנית, בדרך כלל בתוך 2 ימי עסקים. קבוצה שנפתחה בתקופה הזו נשארת ללא הגבלה גם אחריה (״קבוצה מתקופת ההשקה״).
 
 ### איפה קונים ומה המחירים?
 
@@ -1339,9 +1349,9 @@ Shaveh Beshaveh (שווה בשווה, Hebrew for "equally" or "fifty-fifty") is 
 
 1. מנהל הקבוצה פותח את הגדרות הקבוצה ← ״המסלולים והמחירים״ (או מתחילים במסך הבית: ״מסלולים ומחירים״ ← ״פותחים קבוצה ובוחרים מסלול״ — ואחרי פתיחת הקבוצה מסך המסלולים נפתח עם המסלול שבחרתם מסומן).
 2. לוחצים על הכפתור שליד המסלול, ההשלמה או הרישיון, למשל ״הפעלה בדוא״ל — 29 ₪״.
-3. נפתחת הודעה מוכנה למפעיל השירות, וכל מה שנשאר הוא לשלוח אותה. ההודעה כוללת את המסלול, הסכום ומזהה הקבוצה.
+3. נפתח מסך ״לפני שליחת הבקשה״ — הפריט והסכום, פרטי העוסק ותנאי הביטול. מסמנים את אישור התקנון ולוחצים ״שליחת הבקשה בדוא״ל״: נפתחת הודעה מוכנה למפעיל השירות, וכל מה שנשאר הוא לשלוח אותה. ההודעה כוללת את המסלול, הסכום ומזהה הקבוצה. אם אפליקציית הדואר לא נפתחה — ״העתקת הבקשה״ ושולחים אותה לכתובת שמוצגת שם.
 4. משלמים למפעיל השירות בביט או בפייבוקס, לפי ההנחיות שתקבלו בתשובה.
-5. המסלול מופעל אחרי אישור התשלום, ומוצג במסך המסלולים עם תאריך התוקף.
+5. המסלול מופעל ידנית אחרי אישור התשלום — בדרך כלל בתוך 2 ימי עסקים — ומוצג במסך המסלולים עם תאריך התוקף.
 
 הקבוצה ממשיכה לעבוד כרגיל עד ההפעלה.
 
@@ -1468,7 +1478,7 @@ Shaveh Beshaveh (שווה בשווה, Hebrew for "equally" or "fifty-fifty") is 
 
 מה יושם:
 
-- ניווט מלא במקלדת ובקורא מסך, עם תוויות מתאימות.
+- שימוש במקלדת ובקורא מסך — כפתורים, שדות וחלונות בנויים כרכיבים שאפשר להפעיל במקלדת, עם תוויות לקורא מסך. הליקויים שעוד ידועים לנו, ומועד הבדיקה האחרונה, מפורטים בהצהרת הנגישות.
 - ניגודיות צבעים תקנית, וכפתורים בגודל 44 פיקסלים לפחות.
 - גופן בגודל מינימלי של 12 פיקסלים.
 - מצב כהה — לפי הגדרת התצוגה של המכשיר.

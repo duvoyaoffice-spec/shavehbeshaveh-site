@@ -1,11 +1,11 @@
 # שווה בשווה (Shaveh Beshaveh)
 
-> רושמים מי שילם — והחשבון מסתדר מעצמו: חלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולכל קבוצה. הצטרפות בקישור, בלי התקנה · חלוקה לפי מבוגרים וילדים, ב־₪ ובמט״ח · הודעת התחשבנות אישית בוואטסאפ, עם ביט ופייבוקס. מתחילים בחינם.
+> רושמים מי שילם — והחשבון מסתדר מעצמו: חלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולכל קבוצה. הצטרפות בקישור, בלי התקנה · חלוקה לפי מבוגרים וילדים, ב־₪ ובמט״ח · הודעת התחשבנות אישית בוואטסאפ, עם ביט ופייבוקס. מתחילים בחינם — ובתקופת ההשקה הכול חינם, ללא הגבלת הוצאות.
 
 - כתובת האתר: https://shavehbeshaveh.co.il/
 - אינסטגרם: https://www.instagram.com/shavehbeshaveh.app/
 - יצירת קשר (בכתב, בדוא״ל): shavehbeshaveh.app@gmail.com
-- עודכן: 2026-10-14
+- עודכן: 2026-10-23
 
 ## English summary
 
@@ -15,7 +15,7 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 - Whoever pays records the expense: amount, who paid, who shares it, and an optional receipt photo. The app computes every member's balance and "who pays whom", either directly to each payer or netted so that fewer transfers are needed.
 - Splits: equal, custom amounts, or per head with adults and children (a child can count as free, a quarter, a half, three quarters or a full share).
 - Foreign-currency expenses are converted into the group's currency. The app prepares a personal WhatsApp settlement message for everyone who still owes, stating how the recipient prefers to be paid (Bit, PayBox, bank transfer or cash). Money never passes through the app.
-- Starts free. Paid plans are per group (שבוע, חודש, שנתי) with no automatic renewal, and there are business licenses with the business's logo and name for event producers and contractors. Current plans and prices: https://shavehbeshaveh.co.il/help/plans-prices.html
+- Starts free. During the current launch period everything is free: no expense limit and no purchase needed, and a group opened during the launch period stays unlimited afterwards. After the launch period, paid plans are per group (שבוע, חודש, שנתי) with no automatic renewal, and there are business licenses with the business's logo and name for event producers and contractors. Current plans and prices: https://shavehbeshaveh.co.il/help/plans-prices.html
 - Website: https://shavehbeshaveh.co.il/ · Instagram: https://www.instagram.com/shavehbeshaveh.app/ · Contact (email): shavehbeshaveh.app@gmail.com
 - Full Markdown export of every guide and help article: https://shavehbeshaveh.co.il/llms-full.txt
 
@@ -35,12 +35,14 @@ Shaveh Beshaveh (Hebrew: "שווה בשווה", meaning "equally" or "fifty-fift
 
 ## מסלולים ומחירים
 
-מתחילים בחינם. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת (שבוע, חודש, שנתי), בלי חידוש אוטומטי, ורישיונות לעסקים עם הלוגו והשם של העסק. המחירים המעודכנים תמיד בעמוד [המסלולים והמחירים](https://shavehbeshaveh.co.il/help/plans-prices.html).
+**תקופת ההשקה:** כרגע, בתקופת ההשקה, הכול חינם — ללא הגבלת הוצאות ובלי צורך לרכוש. קבוצה שנפתחת עכשיו נשארת ללא הגבלה גם אחרי התקופה.
+
+המחירון שיחול אחרי תקופת ההשקה: מתחילים בחינם. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת (שבוע, חודש, שנתי), בלי חידוש אוטומטי, ורישיונות לעסקים עם הלוגו והשם של העסק. המחירים המעודכנים תמיד בעמוד [המסלולים והמחירים](https://shavehbeshaveh.co.il/help/plans-prices.html).
 
 ## מדריכים
 
 - [מדריכים לחלוקת הוצאות](https://shavehbeshaveh.co.il/guides/): מדריכים מעשיים בעברית: חלוקת הוצאות בטיול, התחשבנות בין שותפים לדירה, מנגל ואירוע משפחתי לפי מבוגרים וילדים, ואיך מחשבים מי חייב למי.
-- [אפליקציה לחלוקת הוצאות בקבוצה](https://shavehbeshaveh.co.il/guides/expense-splitting-app.html): שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובחינם עד 10 הוצאות.
+- [אפליקציה לחלוקת הוצאות בקבוצה](https://shavehbeshaveh.co.il/guides/expense-splitting-app.html): שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובתקופת ההשקה הכול חינם, ללא הגבלת הוצאות.
 - [חלוקת הוצאות בטיול: המדריך המעשי](https://shavehbeshaveh.co.il/guides/trip-expenses.html): איך מחלקים הוצאות בטיול בארץ ובחו״ל: מי שילם על מה, מטבע זר, ילדים בחצי מחיר והתחשבנות בסוף, צעד אחר צעד.
 - [התחשבנות בין שותפים לדירה](https://shavehbeshaveh.co.il/guides/roommates-expenses.html): איך מחלקים שכירות, חשבונות וקניות בין שותפים לדירה בלי טבלאות ובלי ויכוחים: קבוצה אחת, רישום שוטף ומאזן שמתעדכן לבד.
 - [חלוקת הוצאות במנגל ובאירוע משפחתי](https://shavehbeshaveh.co.il/guides/family-bbq-expenses.html): איך מחלקים הוצאות כשמגיעות משפחות בגדלים שונים: חלוקה לפי ראש, ילדים בחצי מחיר או בחינם, ודוגמה מספרית פשוטה.

@@ -22,11 +22,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&family=Frank+Ruhl+Libre:wght@500;700;800;900&display=swap">
-<link rel="stylesheet" href="../styles.0374b8ad49.css">
+<link rel="stylesheet" href="../styles.d3a85018b1.css">
 <style>
 .seo-page { max-width: 640px; margin: 0 auto; padding: 16px 18px 48px; }
 .seo-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 2px 4px; }
-.seo-brand { font-family: var(--font-display); font-weight: 900; font-size: 24px; line-height: 1.1; color: var(--ink); text-decoration: none; }
+.seo-brand { display: inline-block; min-height: 44px; font-family: var(--font-display); font-weight: 900; font-size: 24px; line-height: 1.1; color: var(--ink); text-decoration: none; }
 .seo-brand small { display: block; font-family: var(--font-body); font-weight: 400; font-size: 12.5px; color: var(--muted); margin-top: 3px; }
 .seo-open { flex: none; }
 .seo-crumbs { font-size: 13px; color: var(--muted); margin: 18px 0 4px; }
@@ -52,6 +52,21 @@
 .seo-list small { display: block; color: var(--muted); font-size: 13px; line-height: 1.45; margin-top: 2px; }
 .seo-foot { margin-top: 36px; text-align: center; font-size: 12.5px; color: var(--muted); line-height: 1.8; }
 .seo-foot a { color: var(--brand-strong); }
+.seo-launch { margin: 14px 0 6px; font-size: 15px; padding: 12px 15px; }
+.seo-launch a { color: var(--brand-strong); font-weight: 700; }
+.nf { text-align: center; padding: 26px 0 4px; }
+.nf .art { width: 112px; height: 112px; margin: 0 auto 10px; color: var(--brand); }
+.nf .art svg { width: 100%; height: 100%; display: block; }
+.nf .seo-lead { max-width: 30em; margin-inline: auto; }
+.nf-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 18px 0 6px; }
+.nf-actions .btn { flex: 1 1 160px; max-width: 240px; }
+/* פתיחת קבוצה לפי סוג — אותה משפחה כמו אריחי הסוג במסך הבית: משטח ‎--tile‎, גבול ‎--tile-line‎, אייקון קווי בעיגול ‎--disc‎ עם טבעת ‎--gold-hair‎ */
+.seo-list a.nf-kind { display: flex; align-items: center; gap: 12px; background: var(--tile); border-color: var(--tile-line); }
+.seo-list a.nf-kind:hover { background: var(--tile-hover); }
+.nf-ic { flex: none; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--disc); box-shadow: inset 0 0 0 1px var(--gold-hair); color: var(--brand-strong); }
+.nf-ic svg { display: block; }
+.nf-kind > span:last-child { min-width: 0; }
 </style>
 <script type="application/ld+json">{
  "@context": "https://schema.org",
@@ -84,13 +99,14 @@
   <a class="seo-brand" href="../">שווה בשווה<small>רושמים מי שילם — והחשבון מסתדר מעצמו</small></a>
   <a class="btn sm seo-open" href="../?ref=help">לאפליקציה</a>
 </header>
-<nav class="seo-crumbs" aria-label="מיקום באתר"><a href="../">שווה בשווה</a><span aria-hidden="true">›</span><a href="./">עזרה</a><span aria-hidden="true">›</span>נגישות</nav><article>
+<nav class="seo-crumbs" aria-label="מיקום באתר"><a href="../">שווה בשווה</a><span aria-hidden="true">›</span><a href="./">עזרה</a><span aria-hidden="true">›</span>נגישות</nav><div class="banner launch-free seo-launch" role="note" aria-label="תקופת ההשקה"><span class="plan-badge launch">חינם בתקופת ההשקה</span><p>כרגע, בתקופת ההשקה, הכול חינם — ללא הגבלת הוצאות ובלי צורך לרכוש. קבוצה שנפתחת עכשיו נשארת ללא הגבלה גם אחרי התקופה. <a href="plans-prices.html">המחירון שיחול אחרי תקופת ההשקה</a></p></div>
+<article>
 <p class="help-eyebrow">נגישות</p>
 <h1 class="seo-h1">נגישות</h1>
 <div class="help-prose">
 <p>״שווה בשווה״ נבנתה כך שתהיה נגישה לכלל המשתמשים, בהתאם לתקן הישראלי ת״י 5568 ולהנחיות WCAG 2.1 ברמה AA.</p>
 <p>מה יושם:</p>
-<ul><li>ניווט מלא במקלדת ובקורא מסך, עם תוויות מתאימות.</li><li>ניגודיות צבעים תקנית, וכפתורים בגודל 44 פיקסלים לפחות.</li><li>גופן בגודל מינימלי של 12 פיקסלים.</li><li>מצב כהה — לפי הגדרת התצוגה של המכשיר.</li><li>טפסים עם הודעות שגיאה ברורות, ותיאור מילולי לגרפים.</li></ul>
+<ul><li>שימוש במקלדת ובקורא מסך — כפתורים, שדות וחלונות בנויים כרכיבים שאפשר להפעיל במקלדת, עם תוויות לקורא מסך. הליקויים שעוד ידועים לנו, ומועד הבדיקה האחרונה, מפורטים בהצהרת הנגישות.</li><li>ניגודיות צבעים תקנית, וכפתורים בגודל 44 פיקסלים לפחות.</li><li>גופן בגודל מינימלי של 12 פיקסלים.</li><li>מצב כהה — לפי הגדרת התצוגה של המכשיר.</li><li>טפסים עם הודעות שגיאה ברורות, ותיאור מילולי לגרפים.</li></ul>
 <p>תפריט נגישות: בכל מסך יש כפתור נגישות (סמל הנגישות הבין־לאומי) בראש המסך, וגם הקישור ״נגישות״ בתחתית מסך הבית פותח אותו. בתפריט:</p>
 <ul><li>״גודל טקסט״ — רגיל, גדול או גדול מאוד; כל הטקסט באפליקציה גדל, גם בכפתורים.</li><li>״ניגודיות גבוהה״ — צבעים חזקים וחדים יותר, במצב בהיר ובמצב כהה.</li><li>״הדגשת קישורים״ — קו תחתון לכל קישור ומסגרת לכל כפתור.</li><li>״עצירת אנימציות״ — בלי תנועה, מעברים וקונפטי. פועל מעצמו כשהמכשיר מוגדר לצמצום תנועה, ואפשר לשנות.</li><li>״גופן קריא״ — גופן פשוט וברור, עם מרווח רחב יותר בין האותיות והמילים.</li><li>״ריווח שורות״ — יותר אוויר בין השורות.</li></ul>
 <p>כל שינוי חל מיד. ״איפוס הגדרות״ מחזיר את ברירת המחדל, ו״הצהרת הנגישות המלאה״ פותחת את ההצהרה. ההגדרות נשמרות במכשיר הזה בלבד — בלי עוגיות, בלי שירות חיצוני ובלי מידע אישי.</p>

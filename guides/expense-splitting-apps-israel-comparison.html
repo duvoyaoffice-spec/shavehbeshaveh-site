@@ -22,11 +22,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&family=Frank+Ruhl+Libre:wght@500;700;800;900&display=swap">
-<link rel="stylesheet" href="../styles.0374b8ad49.css">
+<link rel="stylesheet" href="../styles.d3a85018b1.css">
 <style>
 .seo-page { max-width: 640px; margin: 0 auto; padding: 16px 18px 48px; }
 .seo-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 2px 4px; }
-.seo-brand { font-family: var(--font-display); font-weight: 900; font-size: 24px; line-height: 1.1; color: var(--ink); text-decoration: none; }
+.seo-brand { display: inline-block; min-height: 44px; font-family: var(--font-display); font-weight: 900; font-size: 24px; line-height: 1.1; color: var(--ink); text-decoration: none; }
 .seo-brand small { display: block; font-family: var(--font-body); font-weight: 400; font-size: 12.5px; color: var(--muted); margin-top: 3px; }
 .seo-open { flex: none; }
 .seo-crumbs { font-size: 13px; color: var(--muted); margin: 18px 0 4px; }
@@ -52,6 +52,21 @@
 .seo-list small { display: block; color: var(--muted); font-size: 13px; line-height: 1.45; margin-top: 2px; }
 .seo-foot { margin-top: 36px; text-align: center; font-size: 12.5px; color: var(--muted); line-height: 1.8; }
 .seo-foot a { color: var(--brand-strong); }
+.seo-launch { margin: 14px 0 6px; font-size: 15px; padding: 12px 15px; }
+.seo-launch a { color: var(--brand-strong); font-weight: 700; }
+.nf { text-align: center; padding: 26px 0 4px; }
+.nf .art { width: 112px; height: 112px; margin: 0 auto 10px; color: var(--brand); }
+.nf .art svg { width: 100%; height: 100%; display: block; }
+.nf .seo-lead { max-width: 30em; margin-inline: auto; }
+.nf-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 18px 0 6px; }
+.nf-actions .btn { flex: 1 1 160px; max-width: 240px; }
+/* פתיחת קבוצה לפי סוג — אותה משפחה כמו אריחי הסוג במסך הבית: משטח ‎--tile‎, גבול ‎--tile-line‎, אייקון קווי בעיגול ‎--disc‎ עם טבעת ‎--gold-hair‎ */
+.seo-list a.nf-kind { display: flex; align-items: center; gap: 12px; background: var(--tile); border-color: var(--tile-line); }
+.seo-list a.nf-kind:hover { background: var(--tile-hover); }
+.nf-ic { flex: none; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--disc); box-shadow: inset 0 0 0 1px var(--gold-hair); color: var(--brand-strong); }
+.nf-ic svg { display: block; }
+.nf-kind > span:last-child { min-width: 0; }
 </style>
 <script type="application/ld+json">{
  "@context": "https://schema.org",
@@ -102,7 +117,7 @@
     "name": "שווה בשווה",
     "url": "https://shavehbeshaveh.co.il/"
    },
-   "dateModified": "2026-10-14"
+   "dateModified": "2026-10-23"
   },
   {
    "@type": "FAQPage",
@@ -151,7 +166,8 @@
   <a class="seo-brand" href="../">שווה בשווה<small>רושמים מי שילם — והחשבון מסתדר מעצמו</small></a>
   <a class="btn sm seo-open" href="../?ref=help">לאפליקציה</a>
 </header>
-<nav class="seo-crumbs" aria-label="מיקום באתר"><a href="../">שווה בשווה</a><span aria-hidden="true">›</span><a href="./">מדריכים</a></nav><article>
+<nav class="seo-crumbs" aria-label="מיקום באתר"><a href="../">שווה בשווה</a><span aria-hidden="true">›</span><a href="./">מדריכים</a></nav><div class="banner launch-free seo-launch" role="note" aria-label="תקופת ההשקה"><span class="plan-badge launch">חינם בתקופת ההשקה</span><p>כרגע, בתקופת ההשקה, הכול חינם — ללא הגבלת הוצאות ובלי צורך לרכוש. קבוצה שנפתחת עכשיו נשארת ללא הגבלה גם אחרי התקופה. <a href="../help/plans-prices.html">המחירון שיחול אחרי תקופת ההשקה</a></p></div>
+<article>
 <p class="help-eyebrow">מדריך</p>
 <h1 class="seo-h1">איזו אפליקציה לחלוקת הוצאות מתאימה לישראלים? השוואה</h1>
 <p class="seo-lead">מחפשים אפליקציה לחלוקת הוצאות עם חברים, במשפחה או בדירת שותפים? יש כמה אפשרויות טובות, וכל אחת נבנתה לקהל אחר. כאן ההשוואה, כולל היתרונות של האחרות, כדי שתבחרו נכון.</p>
@@ -169,7 +185,7 @@
 <h2 class="seo-h2">מטבע זר, קבלות וההעברה בפועל</h2>
 <ul><li><b>שווה בשווה</b>: <a href="../help/currencies.html">הוצאות במטבע זר</a> נרשמות במטבע שבו שולמו ומחושבות במטבע של הקבוצה, כלול בכל מסלול. <a href="../help/receipts.html">צילום קבלה</a> לכל הוצאה. בסוף מי שנשאר לו לשלם מקבל <a href="../help/whatsapp-messages.html">הודעת וואטסאפ אישית</a> עם הסכום, למי להעביר, והדרך שנוחה למקבל: ביט, פייבוקס, העברה בנקאית או מזומן. הכסף לא עובר דרך האפליקציה.</li><li><b>Splitwise</b>: המרת מטבעות, סריקת קבלות וחיפוש בהיסטוריית ההוצאות שייכים למנוי Pro בתשלום. ההעברה בפועל נעשית מחוץ לאפליקציה, בלי ביט ופייבוקס.</li><li><b>כמה בזבזתי</b>: תמיכה בכל המטבעות, גם כמה מטבעות בטיול אחד, וסגירת חשבון בביט או בפייבוקס.</li></ul>
 <h2 class="seo-h2">מה עולה כסף</h2>
-<ul><li><b>שווה בשווה</b>: מתחילים בחינם. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת, בלי חידוש אוטומטי, ואפשר לחלק את עלות המסלול בין המשתתפים. המחירים המעודכנים במאמר <a href="../help/plans-prices.html">המסלולים והמחירים</a>.</li><li><b>Splitwise</b>: שימוש בסיסי בחינם; יכולות מתקדמות במנוי Pro, בחיוב חודשי או שנתי.</li><li><b>כמה בזבזתי</b>: בחינם, בלי מנוי ובלי פרסומות, לפי תיאור המפתחים.</li></ul>
+<ul><li><b>שווה בשווה</b>: מתחילים בחינם. בתקופת ההשקה הכול חינם, ללא הגבלת הוצאות, והמסלולים בתשלום יחולו רק אחריה. לקבוצה פעילה יותר יש מסלולים לקבוצה אחת, בלי חידוש אוטומטי, ואפשר לחלק את עלות המסלול בין המשתתפים. המחירים המעודכנים במאמר <a href="../help/plans-prices.html">המסלולים והמחירים</a>.</li><li><b>Splitwise</b>: שימוש בסיסי בחינם; יכולות מתקדמות במנוי Pro, בחיוב חודשי או שנתי.</li><li><b>כמה בזבזתי</b>: בחינם, בלי מנוי ובלי פרסומות, לפי תיאור המפתחים.</li></ul>
 <h2 class="seo-h2">מתי לבחור במה</h2>
 <ul><li><b>Splitwise</b> מתאימה כשחלק מהקבוצה כבר משתמשת בה, או כשמטיילים עם חברים מחו״ל שנוח להם באנגלית.</li><li><b>כמה בזבזתי</b> מתאימה למי שרוצה בעיקר לעקוב אחרי ההוצאות האישיות בטיול, עם תקציב יומי ועבודה בלי קליטה.</li><li><b>שווה בשווה</b> מתאימה לקבוצה ישראלית שרוצה עברית, בלי לשכנע את כולם להתקין משהו: טיול עם משפחות וילדים, דירת שותפים לאורך זמן, מנגל ומפגש משפחתי, ערב צוות או שמחה, וגם למפיקים ולקבלנים שמנהלים הוצאות עבור לקוח, עם רישיון עסקי ומיתוג.</li></ul>
 <h2 class="seo-h2">השורה התחתונה</h2>
@@ -204,7 +220,7 @@
 <section class="seo-related">
 <h2 class="seo-cat">מדריכים נוספים</h2>
 <ul class="seo-list">
-<li><a href="expense-splitting-app.html"><b>אפליקציה לחלוקת הוצאות בקבוצה</b><small>שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובחינם עד 10 הוצאות.</small></a></li>
+<li><a href="expense-splitting-app.html"><b>אפליקציה לחלוקת הוצאות בקבוצה</b><small>שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובתקופת ההשקה הכול חינם, ללא הגבלת הוצאות.</small></a></li>
 <li><a href="trip-expenses.html"><b>חלוקת הוצאות בטיול: המדריך המעשי</b><small>איך מחלקים הוצאות בטיול בארץ ובחו״ל: מי שילם על מה, מטבע זר, ילדים בחצי מחיר והתחשבנות בסוף, צעד אחר צעד.</small></a></li>
 <li><a href="roommates-expenses.html"><b>התחשבנות בין שותפים לדירה</b><small>איך מחלקים שכירות, חשבונות וקניות בין שותפים לדירה בלי טבלאות ובלי ויכוחים: קבוצה אחת, רישום שוטף ומאזן שמתעדכן לבד.</small></a></li>
 <li><a href="family-bbq-expenses.html"><b>חלוקת הוצאות במנגל ובאירוע משפחתי</b><small>איך מחלקים הוצאות כשמגיעות משפחות בגדלים שונים: חלוקה לפי ראש, ילדים בחצי מחיר או בחינם, ודוגמה מספרית פשוטה.</small></a></li>
