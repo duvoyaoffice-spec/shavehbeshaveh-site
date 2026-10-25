@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://keuzcgicyesqrwovgqfx.supabase.co https://open.er-api.com https://he.wikipedia.org; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-src 'none'">
+<meta name="referrer" content="strict-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>איך מחלקים חשבון במסעדה — שווה, לפי מנות, עם טיפ · שווה בשווה</title>
+<meta name="description" content="שתי דרכים לחלק חשבון במסעדה בין חברים: חלוקה שווה בתוך שניות, או לפי מה שכל אחד הזמין כשהטיפ מתחלק שווה. עם חישוב לדוגמה.">
+<link rel="canonical" href="https://shavehbeshaveh.co.il/guides/restaurant-bill-split.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="שווה בשווה">
+<meta property="og:locale" content="he_IL">
+<meta property="og:url" content="https://shavehbeshaveh.co.il/guides/restaurant-bill-split.html">
+<meta property="og:title" content="איך מחלקים חשבון במסעדה — שווה, לפי מנות, עם טיפ · שווה בשווה">
+<meta property="og:description" content="שתי דרכים לחלק חשבון במסעדה בין חברים: חלוקה שווה בתוך שניות, או לפי מה שכל אחד הזמין כשהטיפ מתחלק שווה. עם חישוב לדוגמה.">
+<meta property="og:image" content="https://shavehbeshaveh.co.il/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F3EA">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0D1511">
+<link rel="icon" type="image/png" sizes="192x192" href="../icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&family=Frank+Ruhl+Libre:wght@500;700;800;900&display=swap">
+<link rel="stylesheet" href="../styles.d3a85018b1.css">
+<style>
+.seo-page { max-width: 640px; margin: 0 auto; padding: 16px 18px 48px; }
+.seo-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 2px 4px; }
+.seo-brand { display: inline-block; min-height: 44px; font-family: var(--font-display); font-weight: 900; font-size: 24px; line-height: 1.1; color: var(--ink); text-decoration: none; }
+.seo-brand small { display: block; font-family: var(--font-body); font-weight: 400; font-size: 12.5px; color: var(--muted); margin-top: 3px; }
+.seo-open { flex: none; }
+.seo-crumbs { font-size: 13px; color: var(--muted); margin: 18px 0 4px; }
+.seo-crumbs a { color: var(--brand-strong); }
+.seo-crumbs span { margin: 0 5px; }
+.seo-h1 { font-family: var(--font-display); font-weight: 800; font-size: 26px; line-height: 1.25; margin: 6px 0 12px; overflow-wrap: anywhere; }
+.seo-lead { color: var(--ink-2); font-size: 16px; line-height: 1.6; margin: 0 0 14px; }
+.help-prose h3 { font-size: 16px; color: var(--ink); margin: 16px 0 4px; }
+.seo-h2 { font-family: var(--font-display); font-size: 20px; font-weight: 800; line-height: 1.3; color: var(--ink); margin: 26px 0 6px; text-wrap: balance; }
+.seo-faq dl { margin: 0; }
+.seo-faq dt { font-weight: 700; font-size: 15.5px; line-height: 1.4; margin: 14px 0 3px; color: var(--ink); }
+.seo-faq dd { margin: 0; color: var(--ink-2); font-size: 15px; line-height: 1.6; }
+.seo-faq dd a, .help-prose a { color: var(--brand-strong); }
+.help-prose [dir="ltr"], .seo-faq [dir="ltr"] { text-align: left; direction: ltr; }
+.seo-cta { margin: 24px 0 4px; }
+.seo-note { color: var(--muted); font-size: 13.5px; line-height: 1.5; margin: 8px 0 0; }
+.seo-note a { color: var(--brand-strong); }
+.seo-related { margin-top: 28px; }
+.seo-cat { font-family: var(--font-display); font-size: 18px; font-weight: 700; margin: 26px 4px 10px; }
+.seo-list { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.seo-list a { display: block; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); color: var(--ink); text-decoration: none; }
+.seo-list b { display: block; font-size: 15px; line-height: 1.35; }
+.seo-list small { display: block; color: var(--muted); font-size: 13px; line-height: 1.45; margin-top: 2px; }
+.seo-foot { margin-top: 36px; text-align: center; font-size: 12.5px; color: var(--muted); line-height: 1.8; }
+.seo-foot a { color: var(--brand-strong); }
+.seo-launch { margin: 14px 0 6px; font-size: 15px; padding: 12px 15px; }
+.seo-launch a { color: var(--brand-strong); font-weight: 700; }
+.nf { text-align: center; padding: 26px 0 4px; }
+.nf .art { width: 112px; height: 112px; margin: 0 auto 10px; color: var(--brand); }
+.nf .art svg { width: 100%; height: 100%; display: block; }
+.nf .seo-lead { max-width: 30em; margin-inline: auto; }
+.nf-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 18px 0 6px; }
+.nf-actions .btn { flex: 1 1 160px; max-width: 240px; }
+/* פתיחת קבוצה לפי סוג — אותה משפחה כמו אריחי הסוג במסך הבית: משטח ‎--tile‎, גבול ‎--tile-line‎, אייקון קווי בעיגול ‎--disc‎ עם טבעת ‎--gold-hair‎ */
+.seo-list a.nf-kind { display: flex; align-items: center; gap: 12px; background: var(--tile); border-color: var(--tile-line); }
+.seo-list a.nf-kind:hover { background: var(--tile-hover); }
+.nf-ic { flex: none; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--disc); box-shadow: inset 0 0 0 1px var(--gold-hair); color: var(--brand-strong); }
+.nf-ic svg { display: block; }
+.nf-kind > span:last-child { min-width: 0; }
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "שווה בשווה",
+   "item": "https://shavehbeshaveh.co.il/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "מדריכים",
+   "item": "https://shavehbeshaveh.co.il/guides/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "איך מחלקים חשבון במסעדה",
+   "item": "https://shavehbeshaveh.co.il/guides/restaurant-bill-split.html"
+  }
+ ]
+}</script>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "@id": "https://shavehbeshaveh.co.il/guides/restaurant-bill-split.html#article",
+   "headline": "איך מחלקים חשבון במסעדה",
+   "description": "שתי דרכים לחלק חשבון במסעדה בין חברים: חלוקה שווה בתוך שניות, או לפי מה שכל אחד הזמין כשהטיפ מתחלק שווה. עם חישוב לדוגמה.",
+   "inLanguage": "he",
+   "mainEntityOfPage": "https://shavehbeshaveh.co.il/guides/restaurant-bill-split.html",
+   "image": "https://shavehbeshaveh.co.il/og.png",
+   "author": {
+    "@type": "Organization",
+    "name": "שווה בשווה",
+    "url": "https://shavehbeshaveh.co.il/"
+   },
+   "publisher": {
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://shavehbeshaveh.co.il/icons/icon-512.png"
+    },
+    "@type": "Organization",
+    "name": "שווה בשווה",
+    "url": "https://shavehbeshaveh.co.il/"
+   },
+   "dateModified": "2026-10-25"
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://shavehbeshaveh.co.il/guides/restaurant-bill-split.html#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "איך מחלקים טיפ כשכל אחד הזמין משהו אחר?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "בחלוקה לפי פריטים, ההפרש בין סכום החשבון לסך הפריטים, בדרך כלל הטיפ או השירות, מתחלק שווה בין כל המשתתפים בהוצאה."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "צריך שכולם יתקינו משהו?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "לא. החלוקה המהירה עובדת בדפדפן, בלי התקנה ובלי הרשמה, ואת התוצאה שולחים בוואטסאפ. בקבוצה, החברים מצטרפים בקישור עם שם ומספר טלפון."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "מה קורה כשהסכום לא מתחלק בדיוק?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "בלי עיגול מוצגת שארית האגורות, ומצוין שאחד הסכומים יכלול אותה. בעיגול, הסכום לכל אחד עגול, ומוצג בכמה סך העיגול גבוה מהחשבון."
+     }
+    }
+   ]
+  }
+ ]
+}</script>
+</head>
+<body>
+<main class="seo-page">
+<header class="seo-top">
+  <a class="seo-brand" href="../">שווה בשווה<small>רושמים מי שילם — והחשבון מסתדר מעצמו</small></a>
+  <a class="btn sm seo-open" href="../?ref=help">לאפליקציה</a>
+</header>
+<nav class="seo-crumbs" aria-label="מיקום באתר"><a href="../">שווה בשווה</a><span aria-hidden="true">›</span><a href="./">מדריכים</a></nav><div class="banner launch-free seo-launch" role="note" aria-label="תקופת ההשקה"><span class="plan-badge launch">חינם בתקופת ההשקה</span><p>כרגע, בתקופת ההשקה, הכול חינם — ללא הגבלת הוצאות ובלי צורך לרכוש. קבוצה שנפתחת עכשיו נשארת ללא הגבלה גם אחרי התקופה. <a href="../help/plans-prices.html">המחירון שיחול אחרי תקופת ההשקה</a></p></div>
+<article>
+<p class="help-eyebrow">מדריך</p>
+<h1 class="seo-h1">איך מחלקים חשבון במסעדה</h1>
+<p class="seo-lead">בסוף ארוחה עם חברים מגיע חשבון אחד, ומישהו משלם אותו. השאלה היא רק כמה כל אחד מחזיר. אם כולם אכלו בערך אותו דבר, מחלקים שווה. אם ההזמנות שונות מאוד, מחלקים לפי מה שכל אחד הזמין.</p>
+<p class="seo-cta"><a class="btn primary" href="../?new=quick&amp;ref=guide-restaurant-bill-split">לחלוקה מהירה של החשבון</a></p>
+<div class="help-prose">
+<h2 class="seo-h2">חלוקה שווה: חלוקה מהירה, בלי קבוצה</h2>
+<p>כשצריך לחלק רק חשבון אחד, אין צורך לפתוח קבוצה:</p>
+<ol><li>במסך הבית לוחצים ״חלוקה מהירה״.</li><li>מקלידים את הסכום הכולל, כולל הטיפ. אפשר גם חישוב, למשל 380+57.</li><li>בוחרים כמה אנשים, בין 2 ל־30.</li><li>רשות: עיגול לשקל, ל־5 ₪ או ל־10 ₪.</li></ol>
+<p>התוצאה, ״לכל אחד ואחת״, מופיעה מיד, ואפשר לשלוח אותה לקבוצת הוואטסאפ כטקסט או כתמונה. החלוקה המהירה נשמרת במכשיר בלבד, ואין צורך בהרשמה. פרטים במאמר <a href="../help/quick-split.html">חלוקה מהירה</a>.</p>
+<h2 class="seo-h2">חישוב לדוגמה: חלוקה שווה</h2>
+<p>חשבון של 437 ₪ כולל טיפ, ארבעה סועדים. בלי עיגול, לכל אחד ואחת 109.25 ₪. בעיגול לשקל, לכל אחד 110 ₪, ומוצג שסך העיגול גבוה ב־3 ₪ מהחשבון. הסכומים להמחשה בלבד.</p>
+<h2 class="seo-h2">לפי מה שכל אחד הזמין</h2>
+<p>כשההזמנות שונות, פותחים קבוצה, רושמים את החשבון כהוצאה אחת ובוחרים <a href="../help/split-items.html">לפי פריטים</a>:</p>
+<ol><li>מזינים את הסכום הכולל, כולל טיפ או שירות.</li><li>לכל פריט מזינים סכום ומסמנים מי חולקים אותו: אדם אחד, כמה אנשים, או כולם.</li><li>ההפרש בין הסכום הכולל לסך הפריטים, בדרך כלל הטיפ, מתחלק שווה בין כל המשתתפים בהוצאה.</li><li>״יוצא לכל משתתף״ מציג את הסכום של כל אחד עוד לפני השמירה.</li></ol>
+<p>גם מחלוקה מהירה אפשר להמשיך: ״להפוך לקבוצה אמיתית״ פותח קבוצה, והסכום נכנס אליה כהוצאה הראשונה.</p>
+<h2 class="seo-h2">חישוב לדוגמה: ארבעה חברים, הזמנות שונות</h2>
+<p>דנה שילמה חשבון של 448 ₪, מתוכם 48 ₪ טיפ:</p>
+<ul><li><b>סלט</b> 60 ₪: דנה.</li><li><b>המבורגר</b> 80 ₪: יואב.</li><li><b>פסטה</b> 100 ₪: נועם ושירה חולקים.</li><li><b>מנות פתיחה לשולחן</b> 160 ₪: כל הארבעה.</li></ul>
+<p>הטיפ, 48 ₪, מתחלק שווה: 12 ₪ לכל אחד. חלקה של דנה 112 ₪, חלקו של יואב 132 ₪, ונועם ושירה 102 ₪ כל אחד. דנה שילמה הכול, ולכן יואב מעביר לה 132 ₪, ונועם ושירה 102 ₪ כל אחד. השמות והסכומים להמחשה בלבד.</p>
+<h2 class="seo-h2">כמה זה עולה</h2>
+<p>בתקופת ההשקה הכול חינם, ללא הגבלת הוצאות ובלי לרכוש מסלול.</p>
+<p>החלוקה המהירה אינה קבוצה, ולכן אינה דורשת מסלול. אחרי תקופת ההשקה, קבוצה לארוחה אחת נכנסת במסלול החינמי: עד 10 הוצאות בקבוצה, בלי הגבלת זמן. לסדרה של ארוחות ובילויים, ראו את <a href="trip-expenses.html">המדריך לטיול</a>.</p>
+</div>
+<section class="seo-faq">
+<h2 class="seo-h2">שאלות נפוצות</h2>
+<dl>
+<dt>איך מחלקים טיפ כשכל אחד הזמין משהו אחר?</dt>
+<dd>בחלוקה לפי פריטים, ההפרש בין סכום החשבון לסך הפריטים, בדרך כלל הטיפ או השירות, מתחלק שווה בין כל המשתתפים בהוצאה.</dd>
+<dt>צריך שכולם יתקינו משהו?</dt>
+<dd>לא. החלוקה המהירה עובדת בדפדפן, בלי התקנה ובלי הרשמה, ואת התוצאה שולחים בוואטסאפ. בקבוצה, החברים מצטרפים בקישור עם שם ומספר טלפון.</dd>
+<dt>מה קורה כשהסכום לא מתחלק בדיוק?</dt>
+<dd>בלי עיגול מוצגת שארית האגורות, ומצוין שאחד הסכומים יכלול אותה. בעיגול, הסכום לכל אחד עגול, ומוצג בכמה סך העיגול גבוה מהחשבון.</dd>
+</dl>
+</section>
+</article>
+<p class="seo-cta"><a class="btn primary" href="../?new=quick&amp;ref=guide-restaurant-bill-split">לחלוקה מהירה של החשבון</a></p>
+<p class="seo-note">בלי התקנה ובלי הרשמה: החברים מצטרפים בקישור, עם שם ומספר טלפון בלבד.</p>
+<section class="seo-related">
+<h2 class="seo-cat">מאמרי עזרה קשורים</h2>
+<ul class="seo-list">
+<li><a href="../help/quick-split.html"><b>חלוקה מהירה — בלי קבוצה ובלי הרשמה</b><small>״חלוקה מהירה״ במסך הבית: מקלידים סכום וכמה אנשים — ורואים מיד ״לכל אחד ואחת X״. שולחים לוואטסאפ כטקסט או כתמונה, בלי לפתוח קבוצה. נשמר במכשיר בלבד.</small></a></li>
+<li><a href="../help/split-items.html"><b>לפי פריטים — חלוקה של חשבון מסעדה</b><small>חלוקה לפי פריטים: רושמים כל פריט מהחשבון — שם, סכום ומי חולקים אותו — והאפליקציה מחשבת לכל משתתף את החלק שלו; מה שנשאר (טיפ או שירות) מתחלק שווה בין כולם.</small></a></li>
+<li><a href="../help/split-equal.html"><b>חלוקה שווה ובחירת המשתתפים בהוצאה</b><small>ברירת המחדל: ההוצאה מתחלקת שווה בשווה בין מי שסומנו ב״על מי מתחלק?״ — ארוחה של כולם, מונית של שלושה או קנייה פרטית.</small></a></li>
+<li><a href="../help/mark-paid.html"><b>רישום תשלום: ״שילמתי״, ״קיבלתי״ ותשלום חלקי</b><small>אחרי שהעברתם או קיבלתם כסף: ״שילמתי״ / ״קיבלתי״ ליד ההעברה, תשלום חלקי או מחצית, ומה קורה לחוב שנשאר.</small></a></li>
+</ul>
+</section>
+<section class="seo-related">
+<h2 class="seo-cat">מדריכים נוספים</h2>
+<ul class="seo-list">
+<li><a href="expense-splitting-app.html"><b>אפליקציה לחלוקת הוצאות בקבוצה</b><small>שווה בשווה: אפליקציה בעברית לחלוקת הוצאות והתחשבנות לטיול, לדירת שותפים, למנגל ולאירוע. מצטרפים בקישור, בלי התקנה, ובתקופת ההשקה הכול חינם, ללא הגבלת הוצאות.</small></a></li>
+<li><a href="trip-expenses.html"><b>חלוקת הוצאות בטיול: המדריך המעשי</b><small>איך מחלקים הוצאות בטיול בארץ ובחו״ל: מי שילם על מה, מטבע זר, ילדים בחצי מחיר והתחשבנות בסוף, צעד אחר צעד.</small></a></li>
+<li><a href="roommates-expenses.html"><b>התחשבנות בין שותפים לדירה</b><small>איך מחלקים שכירות, חשבונות וקניות בין שותפים לדירה בלי טבלאות ובלי ויכוחים: קבוצה אחת, רישום שוטף ומאזן שמתעדכן לבד.</small></a></li>
+<li><a href="family-bbq-expenses.html"><b>חלוקת הוצאות במנגל ובאירוע משפחתי</b><small>איך מחלקים הוצאות כשמגיעות משפחות בגדלים שונים: חלוקה לפי ראש, ילדים בחצי מחיר או בחינם, ודוגמה מספרית פשוטה.</small></a></li>
+<li><a href="who-owes-whom.html"><b>מי חייב למי? כך מחשבים התחשבנות בין חברים</b><small>השיטה לחישוב התחשבנות בקבוצה: כמה כל אחד שילם, מה חלקו, ואיך מגיעים למינימום העברות. עם דוגמה של ארבעה חברים.</small></a></li>
+<li><a href="expense-splitting-apps-israel-comparison.html"><b>איזו אפליקציה לחלוקת הוצאות מתאימה לישראלים? השוואה</b><small>השוואה הוגנת בין שווה בשווה, Splitwise ו״כמה בזבזתי״: עברית, התקנה והצטרפות בקישור, ילדים ומטבע זר, ביט ופייבוקס, ומה מתוכן בחינם.</small></a></li>
+<li><a href="what-is-shaveh-beshaveh.html"><b>מה זה שווה בשווה ואיך זה עובד</b><small>שווה בשווה היא אפליקציית ווב ישראלית לחלוקת הוצאות: פותחים קבוצה, החברים מצטרפים בקישור, רושמים מי שילם, והאפליקציה מחשבת מי חייב למי. גם באנגלית.</small></a></li>
+<li><a href="wedding-expenses.html"><b>חלוקת הוצאות החתונה בין המשפחות</b><small>איך מחלקים את הוצאות החתונה בין הזוג ושתי המשפחות: מה מסכמים מראש, חלוקה באחוזים לפי מספר האורחים, תקציב משותף וחישוב לדוגמה.</small></a></li>
+<li><a href="bachelor-party-expenses.html"><b>חלוקת הוצאות במסיבת רווקות או רווקים</b><small>איך מחלקים את עלות מסיבת הרווקות או הרווקים בין החברים, כשהכלה או החתן לא משלמים: מי שילם על מה, מי השתתף רק בחלק, וחישוב לדוגמה.</small></a></li>
+<li><a href="bar-mitzvah-expenses.html"><b>הוצאות בר מצווה ובת מצווה: חלוקה בין ההורים והמשפחה</b><small>איך מנהלים ומחלקים את הוצאות בר המצווה או בת המצווה בין ההורים, ואיך רושמים השתתפות של סבים: תקציב משותף, אחוזים וחישוב לדוגמה.</small></a></li>
+<li><a href="vacation-villa-expenses.html"><b>חלוקת הוצאות צימר או וילה בין משפחות</b><small>איך מחלקים צימר, וילה או חופשה משותפת בין משפחות: הלינה לפי חדרים, האוכל לפי נפשות עם ילדים בחצי מחיר, וחישוב לדוגמה.</small></a></li>
+<li><a href="team-event-expenses.html"><b>ערב צוות, גיבוש ומתנה משותפת: חלוקת ההוצאות</b><small>איך מחלקים הוצאות של ערב צוות או גיבוש בין העובדים, ואיך אוספים כסף למתנה משותפת בלי טבלאות: מי שילם, מי השתתף, וחישוב לדוגמה.</small></a></li>
+<li><a href="class-reunion-expenses.html"><b>פגישת מחזור: חלוקת ההוצאות בין המשתתפים</b><small>איך מנהלים את הצד הכספי של פגישת מחזור: מקדמות של המארגנים, נרשמים מאוחרים, מי שמגיע עם בן או בת זוג, וחישוב לדוגמה.</small></a></li>
+<li><a href="renovation-expenses.html"><b>מעקב הוצאות שיפוץ וחלוקה בין שותפים</b><small>איך עוקבים אחרי הוצאות שיפוץ מול תקציב, שומרים את כל הקבלות במקום אחד ומחלקים את העלות בין בני זוג, אחים או שותפים. עם חישוב לדוגמה.</small></a></li>
+</ul>
+</section>
+<footer class="seo-foot">
+  <a href="../guides/">מדריכים</a> · <a href="../help/">מרכז העזרה</a> · <a href="../?legal=terms">תקנון</a> · <a href="../?legal=privacy">פרטיות</a> · <a href="../?legal=a11y">נגישות</a> · <a href="../?help=cancel">ביטול עסקה</a><br>
+  <a href="https://www.instagram.com/shavehbeshaveh.app/" rel="me noopener" target="_blank">אינסטגרם<span class="sr-only"> (נפתח בלשונית חדשה)</span></a> · שווה בשווה · חלוקת הוצאות הוגנת, לכל קבוצה
+</footer>
+</main>
+</body>
+</html>
